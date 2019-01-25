@@ -1,0 +1,970 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	/89811d9/
+$(EXECUTABLE)	_vim/c-support/codesnippets/Makefile	/^$(EXECUTABLE):	$(OBJECTS)$/;"	t
+%.o	_vim/c-support/codesnippets/Makefile	/^%.o:		%.C$/;"	t
+%.o	_vim/c-support/codesnippets/Makefile	/^%.o:		%.c$/;"	t
+%.o	_vim/c-support/codesnippets/Makefile	/^%.o:		%.cc$/;"	t
+%.o	_vim/c-support/codesnippets/Makefile	/^%.o:		%.cpp$/;"	t
+*	_vim/plugin/taglist.vim	/^    inoremap <buffer> <silent> *             <C-o>:silent! %foldopen!<CR>$/;"	m
+*	_vim/plugin/taglist.vim	/^    nnoremap <buffer> <silent> * :silent! %foldopen!<CR>$/;"	m
++	_vim/plugin/taglist.vim	/^    inoremap <buffer> <silent> +             <C-o>:silent! foldopen<CR>$/;"	m
++	_vim/plugin/taglist.vim	/^    nnoremap <buffer> <silent> + :silent! foldopen<CR>$/;"	m
+-	_vim/plugin/taglist.vim	/^    inoremap <buffer> <silent> -             <C-o>:silent! foldclose<CR>$/;"	m
+-	_vim/plugin/taglist.vim	/^    nnoremap <buffer> <silent> - :silent! foldclose<CR>$/;"	m
+.	_vim/autoload/omni/cpp/complete.vim	/^    inoremap <expr> . omni#cpp#maycomplete#Dot()$/;"	m
+.%.d	_vim/c-support/codesnippets/Makefile	/^.%.d:		%.C$/;"	t
+.%.d	_vim/c-support/codesnippets/Makefile	/^.%.d:		%.cc$/;"	t
+.%.d	_vim/c-support/codesnippets/Makefile	/^.%.d:		%.cpp$/;"	t
+.%.d	_vim/c-support/codesnippets/Makefile	/^.%.d:   %.c$/;"	t
+/*	_vim/ftplugin/c.vim	/^inoremap  <buffer>  \/*       \/*<Space><Space>*\/<Left><Left><Left>$/;"	m
+/*	_vim/ftplugin/c.vim	/^vnoremap  <buffer>  \/*      s\/*<Space><Space>*\/<Left><Left><Left><Esc>p$/;"	m
+/*<CR>	_vim/ftplugin/c.vim	/^inoremap  <buffer>  \/*<CR>  \/*<CR><CR>\/<Esc>kA<Space>$/;"	m
+:	_vim/autoload/omni/cpp/complete.vim	/^    inoremap <expr> : omni#cpp#maycomplete#Scope()$/;"	m
+<2-LeftMouse>	_vim/plugin/taglist.vim	/^    inoremap <buffer> <silent> <2-LeftMouse>$/;"	m
+<2-LeftMouse>	_vim/plugin/taglist.vim	/^    nnoremap <buffer> <silent> <2-LeftMouse>$/;"	m
+<BS>	_vim/plugin/taglist.vim	/^    inoremap <buffer> <silent> <BS> <C-o>:call <SID>Tlist_Window_Move_To_File(-1)<CR>$/;"	m
+<BS>	_vim/plugin/taglist.vim	/^    nnoremap <buffer> <silent> <BS> :call <SID>Tlist_Window_Move_To_File(-1)<CR>$/;"	m
+<C-A>	_vimrc	/^map <C-A> ggVG$"+y$/;"	m
+<C-F2>	_vimrc	/^nnoremap <C-F2> :vert diffsplit $/;"	m
+<C-F3>	_vimrc	/^map <C-F3> \\be  $/;"	m
+<C-O>	_vimrc	/^map! <C-O> <C-Y>,$/;"	m
+<C-X><C-O>	_vim/autoload/omni/cpp/complete.vim	/^    inoremap <expr> <C-X><C-O> omni#cpp#maycomplete#Complete()$/;"	m
+<C-Z>	_vimrc	/^map! <C-Z> <Esc>zzi$/;"	m
+<C-a>	_vimrc	/^imap <C-a> <Esc>^$/;"	m
+<C-c>	_vimrc	/^vmap <C-c> "+y$/;"	m
+<C-e>	_vimrc	/^imap <C-e> <Esc>\$$/;"	m
+<C-j>	_vim/ftplugin/c.vim	/^imap    <buffer>  <silent>  <C-j>    <C-R>=C_JumpForward()<CR>$/;"	m
+<C-j>	_vim/ftplugin/c.vim	/^nmap    <buffer>  <silent>  <C-j>    i<C-R>=C_JumpForward()<CR>$/;"	m
+<C-j>	_vimrc	/^imap <C-j> <ESC>$/;"	m
+<C-k>	_vimrc	/^imap <C-k> <C-y>,$/;"	m
+<C-t>	_vim/plugin/taglist.vim	/^    inoremap <buffer> <silent> <C-t>$/;"	m
+<C-t>	_vim/plugin/taglist.vim	/^    nnoremap <buffer> <silent> <C-t>$/;"	m
+<C-t>	_vimrc	/^imap <C-t> <C-q><TAB>$/;"	m
+<C-v>	_vimrc	/^imap <C-v> <Esc>"*pa$/;"	m
+<C-w>	_vimrc	/^map <C-w> <C-w>w$/;"	m
+<CR>	_vim/plugin/taglist.vim	/^    inoremap <buffer> <silent> <CR>$/;"	m
+<CR>	_vim/plugin/taglist.vim	/^    nnoremap <buffer> <silent> <CR>$/;"	m
+<Esc><Esc>	_vimrc	/^map <Esc><Esc> :w<CR>$/;"	m
+<F12>	_vimrc	/^map <F12> gg=G "F12到顶行$/;"	m
+<F1>	_vim/plugin/taglist.vim	/^    inoremap <buffer> <silent> <F1>  <C-o>:call <SID>Tlist_Window_Toggle_Help_Text()<CR>$/;"	m
+<F1>	_vim/plugin/taglist.vim	/^    nnoremap <buffer> <silent> <F1> :call <SID>Tlist_Window_Toggle_Help_Text()<CR>$/;"	m
+<F2>	_vimrc	/^nnoremap <F2> :g\/^\\s*$\/d<CR> $/;"	m
+<F3>	_vimrc	/^imap <F3> <ESC> :NERDTreeToggle<CR>$/;"	m
+<F3>	_vimrc	/^map <F3> :NERDTreeToggle<CR>$/;"	m
+<F5>	_vimrc	/^map <F5> :call CompileRunGcc()<CR>$/;"	m
+<F8>	_vimrc	/^map <F8> :call Rungdb()<CR>$/;"	m
+<Leader>lcs	_vim/plugin/c.vim	/^	nmap  <unique>  <silent>  <Leader>lcs   :call C_CreateGuiMenus()<CR>$/;"	m
+<Leader>ucs	_vim/plugin/c.vim	/^	nmap  <unique>  <silent>  <Leader>ucs   :call C_RemoveGuiMenus()<CR>$/;"	m
+<LocalLeader>+ai	_vim/ftplugin/c.vim	/^ noremap    <buffer>  <silent>  <LocalLeader>+ai        :call C_InsertTemplate("cpp.accessor-imp/;"	m
+<LocalLeader>+ai	_vim/ftplugin/c.vim	/^inoremap    <buffer>  <silent>  <LocalLeader>+ai   <Esc>:call C_InsertTemplate("cpp.accessor-imp/;"	m
+<LocalLeader>+c	_vim/ftplugin/c.vim	/^ noremap    <buffer>  <silent>  <LocalLeader>+c         :call C_InsertTemplate("cpp.class-defini/;"	m
+<LocalLeader>+c	_vim/ftplugin/c.vim	/^inoremap    <buffer>  <silent>  <LocalLeader>+c    <Esc>:call C_InsertTemplate("cpp.class-defini/;"	m
+<LocalLeader>+c.	_vim/ftplugin/c.vim	/^ noremap    <buffer>  <silent>  <LocalLeader>+c.        :call C_InsertTemplate("cpp.catch-points/;"	m
+<LocalLeader>+c.	_vim/ftplugin/c.vim	/^inoremap    <buffer>  <silent>  <LocalLeader>+c.   <Esc>:call C_InsertTemplate("cpp.catch-points/;"	m
+<LocalLeader>+c.	_vim/ftplugin/c.vim	/^vnoremap    <buffer>  <silent>  <LocalLeader>+c.   <Esc>:call C_InsertTemplate("cpp.catch-points/;"	m
+<LocalLeader>+ca	_vim/ftplugin/c.vim	/^ noremap    <buffer>  <silent>  <LocalLeader>+ca        :call C_InsertTemplate("cpp.catch")<CR>$/;"	m
+<LocalLeader>+ca	_vim/ftplugin/c.vim	/^inoremap    <buffer>  <silent>  <LocalLeader>+ca   <Esc>:call C_InsertTemplate("cpp.catch")<CR>$/;"	m
+<LocalLeader>+ca	_vim/ftplugin/c.vim	/^vnoremap    <buffer>  <silent>  <LocalLeader>+ca   <Esc>:call C_InsertTemplate("cpp.catch", "v")/;"	m
+<LocalLeader>+ci	_vim/ftplugin/c.vim	/^ noremap    <buffer>  <silent>  <LocalLeader>+ci        :call C_InsertTemplate("cpp.class-implem/;"	m
+<LocalLeader>+ci	_vim/ftplugin/c.vim	/^inoremap    <buffer>  <silent>  <LocalLeader>+ci   <Esc>:call C_InsertTemplate("cpp.class-implem/;"	m
+<LocalLeader>+cn	_vim/ftplugin/c.vim	/^ noremap    <buffer>  <silent>  <LocalLeader>+cn        :call C_InsertTemplate("cpp.class-using-/;"	m
+<LocalLeader>+cn	_vim/ftplugin/c.vim	/^inoremap    <buffer>  <silent>  <LocalLeader>+cn   <Esc>:call C_InsertTemplate("cpp.class-using-/;"	m
+<LocalLeader>+cni	_vim/ftplugin/c.vim	/^ noremap    <buffer>  <silent>  <LocalLeader>+cni       :call C_InsertTemplate("cpp.class-using-/;"	m
+<LocalLeader>+cni	_vim/ftplugin/c.vim	/^inoremap    <buffer>  <silent>  <LocalLeader>+cni  <Esc>:call C_InsertTemplate("cpp.class-using-/;"	m
+<LocalLeader>+co	_vim/ftplugin/c.vim	/^ noremap    <buffer>  <silent>  <LocalLeader>+co        :call C_InsertTemplate("cpp.cout")<CR>$/;"	m
+<LocalLeader>+co	_vim/ftplugin/c.vim	/^inoremap    <buffer>  <silent>  <LocalLeader>+co   <Esc>:call C_InsertTemplate("cpp.cout")<CR>$/;"	m
+<LocalLeader>+ec	_vim/ftplugin/c.vim	/^ noremap    <buffer>  <silent>  <LocalLeader>+ec        :call C_InsertTemplate("cpp.error-class"/;"	m
+<LocalLeader>+ec	_vim/ftplugin/c.vim	/^inoremap    <buffer>  <silent>  <LocalLeader>+ec   <Esc>:call C_InsertTemplate("cpp.error-class"/;"	m
+<LocalLeader>+mi	_vim/ftplugin/c.vim	/^ noremap    <buffer>  <silent>  <LocalLeader>+mi        :call C_InsertTemplate("cpp.method-imple/;"	m
+<LocalLeader>+mi	_vim/ftplugin/c.vim	/^inoremap    <buffer>  <silent>  <LocalLeader>+mi   <Esc>:call C_InsertTemplate("cpp.method-imple/;"	m
+<LocalLeader>+tai	_vim/ftplugin/c.vim	/^ noremap    <buffer>  <silent>  <LocalLeader>+tai       :call C_InsertTemplate("cpp.template-acc/;"	m
+<LocalLeader>+tai	_vim/ftplugin/c.vim	/^inoremap    <buffer>  <silent>  <LocalLeader>+tai  <Esc>:call C_InsertTemplate("cpp.template-acc/;"	m
+<LocalLeader>+tc	_vim/ftplugin/c.vim	/^ noremap    <buffer>  <silent>  <LocalLeader>+tc        :call C_InsertTemplate("cpp.template-cla/;"	m
+<LocalLeader>+tc	_vim/ftplugin/c.vim	/^inoremap    <buffer>  <silent>  <LocalLeader>+tc   <Esc>:call C_InsertTemplate("cpp.template-cla/;"	m
+<LocalLeader>+tci	_vim/ftplugin/c.vim	/^ noremap    <buffer>  <silent>  <LocalLeader>+tci       :call C_InsertTemplate("cpp.template-cla/;"	m
+<LocalLeader>+tci	_vim/ftplugin/c.vim	/^inoremap    <buffer>  <silent>  <LocalLeader>+tci  <Esc>:call C_InsertTemplate("cpp.template-cla/;"	m
+<LocalLeader>+tcn	_vim/ftplugin/c.vim	/^ noremap    <buffer>  <silent>  <LocalLeader>+tcn       :call C_InsertTemplate("cpp.template-cla/;"	m
+<LocalLeader>+tcn	_vim/ftplugin/c.vim	/^inoremap    <buffer>  <silent>  <LocalLeader>+tcn  <Esc>:call C_InsertTemplate("cpp.template-cla/;"	m
+<LocalLeader>+tcni	_vim/ftplugin/c.vim	/^ noremap    <buffer>  <silent>  <LocalLeader>+tcni      :call C_InsertTemplate("cpp.template-cla/;"	m
+<LocalLeader>+tcni	_vim/ftplugin/c.vim	/^inoremap    <buffer>  <silent>  <LocalLeader>+tcni <Esc>:call C_InsertTemplate("cpp.template-cla/;"	m
+<LocalLeader>+tf	_vim/ftplugin/c.vim	/^ noremap    <buffer>  <silent>  <LocalLeader>+tf        :call C_InsertTemplate("cpp.template-fun/;"	m
+<LocalLeader>+tf	_vim/ftplugin/c.vim	/^inoremap    <buffer>  <silent>  <LocalLeader>+tf   <Esc>:call C_InsertTemplate("cpp.template-fun/;"	m
+<LocalLeader>+tmi	_vim/ftplugin/c.vim	/^ noremap    <buffer>  <silent>  <LocalLeader>+tmi       :call C_InsertTemplate("cpp.template-met/;"	m
+<LocalLeader>+tmi	_vim/ftplugin/c.vim	/^inoremap    <buffer>  <silent>  <LocalLeader>+tmi  <Esc>:call C_InsertTemplate("cpp.template-met/;"	m
+<LocalLeader>+tr	_vim/ftplugin/c.vim	/^ noremap    <buffer>  <silent>  <LocalLeader>+tr        :call C_InsertTemplate("cpp.try-catch")</;"	m
+<LocalLeader>+tr	_vim/ftplugin/c.vim	/^inoremap    <buffer>  <silent>  <LocalLeader>+tr   <Esc>:call C_InsertTemplate("cpp.try-catch")</;"	m
+<LocalLeader>+tr	_vim/ftplugin/c.vim	/^vnoremap    <buffer>  <silent>  <LocalLeader>+tr   <Esc>:call C_InsertTemplate("cpp.try-catch", /;"	m
+<LocalLeader>c*	_vim/ftplugin/c.vim	/^ noremap    <buffer>  <silent>  <LocalLeader>c*         :call C_CodeComment("a","yes")<CR>:nohls/;"	m
+<LocalLeader>c*	_vim/ftplugin/c.vim	/^vnoremap    <buffer>  <silent>  <LocalLeader>c*    <Esc>:call C_CodeComment("v","yes")<CR>:nohls/;"	m
+<LocalLeader>cc	_vim/ftplugin/c.vim	/^ noremap    <buffer>  <silent>  <LocalLeader>cc         :call C_CodeComment("a","no")<CR>:nohlse/;"	m
+<LocalLeader>cc	_vim/ftplugin/c.vim	/^vnoremap    <buffer>  <silent>  <LocalLeader>cc    <Esc>:call C_CodeComment("v","no")<CR>:nohlse/;"	m
+<LocalLeader>ccl	_vim/ftplugin/c.vim	/^ noremap    <buffer>  <silent>  <LocalLeader>ccl        :call C_InsertTemplate("comment.class")</;"	m
+<LocalLeader>ccl	_vim/ftplugin/c.vim	/^inoremap    <buffer>  <silent>  <LocalLeader>ccl   <Esc>:call C_InsertTemplate("comment.class")</;"	m
+<LocalLeader>cd	_vim/ftplugin/c.vim	/^ noremap    <buffer>  <silent>  <LocalLeader>cd    <Esc>:call C_InsertDateAndTime('d')<CR>$/;"	m
+<LocalLeader>cd	_vim/ftplugin/c.vim	/^inoremap    <buffer>  <silent>  <LocalLeader>cd    <Esc>:call C_InsertDateAndTime('d')<CR>a$/;"	m
+<LocalLeader>cd	_vim/ftplugin/c.vim	/^vnoremap    <buffer>  <silent>  <LocalLeader>cd   s<Esc>:call C_InsertDateAndTime('d')<CR>a$/;"	m
+<LocalLeader>cfr	_vim/ftplugin/c.vim	/^ noremap    <buffer>  <silent>  <LocalLeader>cfr        :call C_InsertTemplate("comment.frame")</;"	m
+<LocalLeader>cfr	_vim/ftplugin/c.vim	/^inoremap    <buffer>  <silent>  <LocalLeader>cfr   <Esc>:call C_InsertTemplate("comment.frame")</;"	m
+<LocalLeader>cfu	_vim/ftplugin/c.vim	/^ noremap    <buffer>  <silent>  <LocalLeader>cfu        :call C_InsertTemplate("comment.function/;"	m
+<LocalLeader>cfu	_vim/ftplugin/c.vim	/^inoremap    <buffer>  <silent>  <LocalLeader>cfu   <Esc>:call C_InsertTemplate("comment.function/;"	m
+<LocalLeader>cj	_vim/ftplugin/c.vim	/^ noremap    <buffer>  <silent>  <LocalLeader>cj         :call C_AdjustLineEndComm("a")<CR>$/;"	m
+<LocalLeader>cj	_vim/ftplugin/c.vim	/^inoremap    <buffer>  <silent>  <LocalLeader>cj    <Esc>:call C_AdjustLineEndComm("a")<CR>a$/;"	m
+<LocalLeader>cj	_vim/ftplugin/c.vim	/^vnoremap    <buffer>  <silent>  <LocalLeader>cj    <Esc>:call C_AdjustLineEndComm("v")<CR>$/;"	m
+<LocalLeader>cl	_vim/ftplugin/c.vim	/^ noremap    <buffer>  <silent>  <LocalLeader>cl         :call C_LineEndComment()<CR>$/;"	m
+<LocalLeader>cl	_vim/ftplugin/c.vim	/^inoremap    <buffer>  <silent>  <LocalLeader>cl    <Esc>:call C_LineEndComment()<CR>a$/;"	m
+<LocalLeader>cl	_vim/ftplugin/c.vim	/^vnoremap    <buffer>  <silent>  <LocalLeader>cl    <Esc>:call C_MultiLineEndComments()<CR>$/;"	m
+<LocalLeader>cme	_vim/ftplugin/c.vim	/^ noremap    <buffer>  <silent>  <LocalLeader>cme        :call C_InsertTemplate("comment.method")/;"	m
+<LocalLeader>cme	_vim/ftplugin/c.vim	/^inoremap    <buffer>  <silent>  <LocalLeader>cme   <Esc>:call C_InsertTemplate("comment.method")/;"	m
+<LocalLeader>co	_vim/ftplugin/c.vim	/^ noremap    <buffer>  <silent>  <LocalLeader>co         :call C_CommentCode("a")<CR>:nohlsearch</;"	m
+<LocalLeader>co	_vim/ftplugin/c.vim	/^vnoremap    <buffer>  <silent>  <LocalLeader>co    <Esc>:call C_CommentCode("v")<CR>:nohlsearch</;"	m
+<LocalLeader>cs	_vim/ftplugin/c.vim	/^ noremap    <buffer>  <silent>  <LocalLeader>cs         :call C_GetLineEndCommCol()<CR>$/;"	m
+<LocalLeader>ct	_vim/ftplugin/c.vim	/^ noremap    <buffer>  <silent>  <LocalLeader>ct    <Esc>:call C_InsertDateAndTime('dt')<CR>$/;"	m
+<LocalLeader>ct	_vim/ftplugin/c.vim	/^inoremap    <buffer>  <silent>  <LocalLeader>ct    <Esc>:call C_InsertDateAndTime('dt')<CR>a$/;"	m
+<LocalLeader>ct	_vim/ftplugin/c.vim	/^vnoremap    <buffer>  <silent>  <LocalLeader>ct   s<Esc>:call C_InsertDateAndTime('dt')<CR>a$/;"	m
+<LocalLeader>hm	_vim/ftplugin/c.vim	/^ map    <buffer>  <silent>  <LocalLeader>hm         :call C_Help("m")<CR>$/;"	m
+<LocalLeader>hm	_vim/ftplugin/c.vim	/^imap    <buffer>  <silent>  <LocalLeader>hm    <C-C>:call C_Help("m")<CR>$/;"	m
+<LocalLeader>hp	_vim/ftplugin/c.vim	/^ map    <buffer>  <silent>  <LocalLeader>hp         :call C_HelpCsupport()<CR>$/;"	m
+<LocalLeader>hp	_vim/ftplugin/c.vim	/^imap    <buffer>  <silent>  <LocalLeader>hp    <C-C>:call C_HelpCsupport()<CR>$/;"	m
+<LocalLeader>i0	_vim/ftplugin/c.vim	/^ noremap    <buffer>  <silent>  <LocalLeader>i0         :call C_CodeFor("up"  , "a")<CR>$/;"	m
+<LocalLeader>i0	_vim/ftplugin/c.vim	/^inoremap    <buffer>  <silent>  <LocalLeader>i0    <Esc>:call C_CodeFor("up"  , "a")<CR>i$/;"	m
+<LocalLeader>i0	_vim/ftplugin/c.vim	/^vnoremap    <buffer>  <silent>  <LocalLeader>i0    <Esc>:call C_CodeFor("up"  , "v")<CR>$/;"	m
+<LocalLeader>ias	_vim/ftplugin/c.vim	/^ noremap    <buffer>  <silent>  <LocalLeader>ias        :call C_InsertTemplate("idioms.assert")</;"	m
+<LocalLeader>ias	_vim/ftplugin/c.vim	/^inoremap    <buffer>  <silent>  <LocalLeader>ias   <Esc>:call C_InsertTemplate("idioms.assert")</;"	m
+<LocalLeader>ias	_vim/ftplugin/c.vim	/^vnoremap    <buffer>  <silent>  <LocalLeader>ias   <Esc>:call C_InsertTemplate("idioms.assert", /;"	m
+<LocalLeader>ica	_vim/ftplugin/c.vim	/^ noremap    <buffer>  <silent>  <LocalLeader>ica        :call C_InsertTemplate("idioms.calloc")</;"	m
+<LocalLeader>ica	_vim/ftplugin/c.vim	/^inoremap    <buffer>  <silent>  <LocalLeader>ica   <Esc>:call C_InsertTemplate("idioms.calloc")</;"	m
+<LocalLeader>ie	_vim/ftplugin/c.vim	/^ noremap    <buffer>  <silent>  <LocalLeader>ie         :call C_InsertTemplate("idioms.enum")<CR/;"	m
+<LocalLeader>ie	_vim/ftplugin/c.vim	/^inoremap    <buffer>  <silent>  <LocalLeader>ie    <Esc>:call C_InsertTemplate("idioms.enum")<CR/;"	m
+<LocalLeader>ie	_vim/ftplugin/c.vim	/^vnoremap    <buffer>  <silent>  <LocalLeader>ie    <Esc>:call C_InsertTemplate("idioms.enum"  , /;"	m
+<LocalLeader>if	_vim/ftplugin/c.vim	/^ noremap    <buffer>  <silent>  <LocalLeader>if         :call C_InsertTemplate("idioms.function"/;"	m
+<LocalLeader>if	_vim/ftplugin/c.vim	/^inoremap    <buffer>  <silent>  <LocalLeader>if    <Esc>:call C_InsertTemplate("idioms.function"/;"	m
+<LocalLeader>if	_vim/ftplugin/c.vim	/^vnoremap    <buffer>  <silent>  <LocalLeader>if    <Esc>:call C_InsertTemplate("idioms.function"/;"	m
+<LocalLeader>ii	_vim/ftplugin/c.vim	/^ noremap    <buffer>  <silent>  <LocalLeader>ii         :call C_InsertTemplate("idioms.open-inpu/;"	m
+<LocalLeader>ii	_vim/ftplugin/c.vim	/^inoremap    <buffer>  <silent>  <LocalLeader>ii    <Esc>:call C_InsertTemplate("idioms.open-inpu/;"	m
+<LocalLeader>ii	_vim/ftplugin/c.vim	/^vnoremap    <buffer>  <silent>  <LocalLeader>ii    <Esc>:call C_InsertTemplate("idioms.open-inpu/;"	m
+<LocalLeader>im	_vim/ftplugin/c.vim	/^ noremap    <buffer>  <silent>  <LocalLeader>im         :call C_InsertTemplate("idioms.main")<CR/;"	m
+<LocalLeader>im	_vim/ftplugin/c.vim	/^inoremap    <buffer>  <silent>  <LocalLeader>im    <Esc>:call C_InsertTemplate("idioms.main")<CR/;"	m
+<LocalLeader>im	_vim/ftplugin/c.vim	/^vnoremap    <buffer>  <silent>  <LocalLeader>im    <Esc>:call C_InsertTemplate("idioms.main", "v/;"	m
+<LocalLeader>ima	_vim/ftplugin/c.vim	/^ noremap    <buffer>  <silent>  <LocalLeader>ima        :call C_InsertTemplate("idioms.malloc")</;"	m
+<LocalLeader>ima	_vim/ftplugin/c.vim	/^inoremap    <buffer>  <silent>  <LocalLeader>ima   <Esc>:call C_InsertTemplate("idioms.malloc")</;"	m
+<LocalLeader>in	_vim/ftplugin/c.vim	/^ noremap    <buffer>  <silent>  <LocalLeader>in         :call C_CodeFor("down", "a")<CR>$/;"	m
+<LocalLeader>in	_vim/ftplugin/c.vim	/^inoremap    <buffer>  <silent>  <LocalLeader>in    <Esc>:call C_CodeFor("down", "a")<CR>i$/;"	m
+<LocalLeader>in	_vim/ftplugin/c.vim	/^vnoremap    <buffer>  <silent>  <LocalLeader>in    <Esc>:call C_CodeFor("down", "v")<CR>$/;"	m
+<LocalLeader>io	_vim/ftplugin/c.vim	/^ noremap    <buffer>  <silent>  <LocalLeader>io         :call C_InsertTemplate("idioms.open-outp/;"	m
+<LocalLeader>io	_vim/ftplugin/c.vim	/^inoremap    <buffer>  <silent>  <LocalLeader>io    <Esc>:call C_InsertTemplate("idioms.open-outp/;"	m
+<LocalLeader>io	_vim/ftplugin/c.vim	/^vnoremap    <buffer>  <silent>  <LocalLeader>io    <Esc>:call C_InsertTemplate("idioms.open-outp/;"	m
+<LocalLeader>ip	_vim/ftplugin/c.vim	/^ noremap    <buffer>  <silent>  <LocalLeader>ip         :call C_InsertTemplate("idioms.printf")</;"	m
+<LocalLeader>ip	_vim/ftplugin/c.vim	/^inoremap    <buffer>  <silent>  <LocalLeader>ip    <Esc>:call C_InsertTemplate("idioms.printf")</;"	m
+<LocalLeader>is	_vim/ftplugin/c.vim	/^ noremap    <buffer>  <silent>  <LocalLeader>is         :call C_InsertTemplate("idioms.struct")</;"	m
+<LocalLeader>is	_vim/ftplugin/c.vim	/^inoremap    <buffer>  <silent>  <LocalLeader>is    <Esc>:call C_InsertTemplate("idioms.struct")</;"	m
+<LocalLeader>is	_vim/ftplugin/c.vim	/^vnoremap    <buffer>  <silent>  <LocalLeader>is    <Esc>:call C_InsertTemplate("idioms.struct", /;"	m
+<LocalLeader>isc	_vim/ftplugin/c.vim	/^ noremap    <buffer>  <silent>  <LocalLeader>isc        :call C_InsertTemplate("idioms.scanf")<C/;"	m
+<LocalLeader>isc	_vim/ftplugin/c.vim	/^inoremap    <buffer>  <silent>  <LocalLeader>isc   <Esc>:call C_InsertTemplate("idioms.scanf")<C/;"	m
+<LocalLeader>isf	_vim/ftplugin/c.vim	/^ noremap    <buffer>  <silent>  <LocalLeader>isf        :call C_InsertTemplate("idioms.function-/;"	m
+<LocalLeader>isf	_vim/ftplugin/c.vim	/^inoremap    <buffer>  <silent>  <LocalLeader>isf   <Esc>:call C_InsertTemplate("idioms.function-/;"	m
+<LocalLeader>isf	_vim/ftplugin/c.vim	/^vnoremap    <buffer>  <silent>  <LocalLeader>isf   <Esc>:call C_InsertTemplate("idioms.function-/;"	m
+<LocalLeader>isi	_vim/ftplugin/c.vim	/^ noremap    <buffer>  <silent>  <LocalLeader>isi        :call C_InsertTemplate("idioms.sizeof")</;"	m
+<LocalLeader>isi	_vim/ftplugin/c.vim	/^inoremap    <buffer>  <silent>  <LocalLeader>isi   <Esc>:call C_InsertTemplate("idioms.sizeof")</;"	m
+<LocalLeader>isi	_vim/ftplugin/c.vim	/^vnoremap    <buffer>  <silent>  <LocalLeader>isi   <Esc>:call C_InsertTemplate("idioms.sizeof", /;"	m
+<LocalLeader>iu	_vim/ftplugin/c.vim	/^ noremap    <buffer>  <silent>  <LocalLeader>iu         :call C_InsertTemplate("idioms.union")<C/;"	m
+<LocalLeader>iu	_vim/ftplugin/c.vim	/^inoremap    <buffer>  <silent>  <LocalLeader>iu    <Esc>:call C_InsertTemplate("idioms.union")<C/;"	m
+<LocalLeader>iu	_vim/ftplugin/c.vim	/^vnoremap    <buffer>  <silent>  <LocalLeader>iu    <Esc>:call C_InsertTemplate("idioms.union" , /;"	m
+<LocalLeader>nc	_vim/ftplugin/c.vim	/^ noremap    <buffer>  <silent>  <LocalLeader>nc         :call C_ProtoClear()<CR>$/;"	m
+<LocalLeader>ne	_vim/ftplugin/c.vim	/^ noremap    <buffer>  <silent>  <LocalLeader>ne         :call C_CodeSnippet("e")<CR>$/;"	m
+<LocalLeader>ni	_vim/ftplugin/c.vim	/^ noremap    <buffer>  <silent>  <LocalLeader>ni         :call C_ProtoInsert()<CR>$/;"	m
+<LocalLeader>np	_vim/ftplugin/c.vim	/^ noremap    <buffer>  <silent>  <LocalLeader>np         :call C_ProtoPick("n")<CR>$/;"	m
+<LocalLeader>np	_vim/ftplugin/c.vim	/^vnoremap    <buffer>  <silent>  <LocalLeader>np    <Esc>:call C_ProtoPick("v")<CR>$/;"	m
+<LocalLeader>nr	_vim/ftplugin/c.vim	/^ noremap    <buffer>  <silent>  <LocalLeader>nr         :call C_CodeSnippet("r")<CR>$/;"	m
+<LocalLeader>ns	_vim/ftplugin/c.vim	/^ noremap    <buffer>  <silent>  <LocalLeader>ns         :call C_ProtoShow()<CR>$/;"	m
+<LocalLeader>ntg	_vim/ftplugin/c.vim	/^ noremap    <buffer>  <silent>  <LocalLeader>ntg        :call C_EditTemplates("global")<CR>$/;"	m
+<LocalLeader>ntl	_vim/ftplugin/c.vim	/^ noremap    <buffer>  <silent>  <LocalLeader>ntl        :call C_EditTemplates("local")<CR>$/;"	m
+<LocalLeader>ntr	_vim/ftplugin/c.vim	/^ noremap    <buffer>  <silent>  <LocalLeader>ntr        :call C_RereadTemplates()<CR>$/;"	m
+<LocalLeader>nw	_vim/ftplugin/c.vim	/^ noremap    <buffer>  <silent>  <LocalLeader>nw         :call C_CodeSnippet("w")<CR>$/;"	m
+<LocalLeader>nw	_vim/ftplugin/c.vim	/^vnoremap    <buffer>  <silent>  <LocalLeader>nw    <Esc>:call C_CodeSnippet("wv")<CR>$/;"	m
+<LocalLeader>p"	_vim/ftplugin/c.vim	/^ noremap    <buffer>  <silent>  <LocalLeader>p"        :call C_InsertTemplate("preprocessor.incl/;"	m
+<LocalLeader>p"	_vim/ftplugin/c.vim	/^inoremap    <buffer>  <silent>  <LocalLeader>p"   <Esc>:call C_InsertTemplate("preprocessor.incl/;"	m
+<LocalLeader>p<	_vim/ftplugin/c.vim	/^ noremap    <buffer>  <silent>  <LocalLeader>p<        :call C_InsertTemplate("preprocessor.incl/;"	m
+<LocalLeader>p<	_vim/ftplugin/c.vim	/^inoremap    <buffer>  <silent>  <LocalLeader>p<   <Esc>:call C_InsertTemplate("preprocessor.incl/;"	m
+<LocalLeader>pd	_vim/ftplugin/c.vim	/^ noremap    <buffer>  <silent>  <LocalLeader>pd        :call C_InsertTemplate("preprocessor.defi/;"	m
+<LocalLeader>pd	_vim/ftplugin/c.vim	/^inoremap    <buffer>  <silent>  <LocalLeader>pd   <Esc>:call C_InsertTemplate("preprocessor.defi/;"	m
+<LocalLeader>pe	_vim/ftplugin/c.vim	/^ noremap    <buffer>  <silent>  <LocalLeader>pe        :call C_InsertTemplate("preprocessor.erro/;"	m
+<LocalLeader>pe	_vim/ftplugin/c.vim	/^inoremap    <buffer>  <silent>  <LocalLeader>pe   <Esc>:call C_InsertTemplate("preprocessor.erro/;"	m
+<LocalLeader>pi0	_vim/ftplugin/c.vim	/^ noremap    <buffer>  <silent>  <LocalLeader>pi0       :call C_PPIf0("a")<CR>2ji$/;"	m
+<LocalLeader>pi0	_vim/ftplugin/c.vim	/^inoremap    <buffer>  <silent>  <LocalLeader>pi0  <Esc>:call C_PPIf0("a")<CR>2ji$/;"	m
+<LocalLeader>pi0	_vim/ftplugin/c.vim	/^vnoremap    <buffer>  <silent>  <LocalLeader>pi0  <Esc>:call C_PPIf0("v")<CR>$/;"	m
+<LocalLeader>pid	_vim/ftplugin/c.vim	/^ noremap    <buffer>  <silent>  <LocalLeader>pid       :call C_InsertTemplate("preprocessor.ifde/;"	m
+<LocalLeader>pid	_vim/ftplugin/c.vim	/^inoremap    <buffer>  <silent>  <LocalLeader>pid  <Esc>:call C_InsertTemplate("preprocessor.ifde/;"	m
+<LocalLeader>pid	_vim/ftplugin/c.vim	/^vnoremap    <buffer>  <silent>  <LocalLeader>pid  <Esc>:call C_InsertTemplate("preprocessor.ifde/;"	m
+<LocalLeader>pie	_vim/ftplugin/c.vim	/^ noremap    <buffer>  <silent>  <LocalLeader>pie       :call C_InsertTemplate("preprocessor.if-e/;"	m
+<LocalLeader>pie	_vim/ftplugin/c.vim	/^inoremap    <buffer>  <silent>  <LocalLeader>pie  <Esc>:call C_InsertTemplate("preprocessor.if-e/;"	m
+<LocalLeader>pie	_vim/ftplugin/c.vim	/^vnoremap    <buffer>  <silent>  <LocalLeader>pie  <Esc>:call C_InsertTemplate("preprocessor.if-e/;"	m
+<LocalLeader>pin	_vim/ftplugin/c.vim	/^ noremap    <buffer>  <silent>  <LocalLeader>pin       :call C_InsertTemplate("preprocessor.ifnd/;"	m
+<LocalLeader>pin	_vim/ftplugin/c.vim	/^inoremap    <buffer>  <silent>  <LocalLeader>pin  <Esc>:call C_InsertTemplate("preprocessor.ifnd/;"	m
+<LocalLeader>pin	_vim/ftplugin/c.vim	/^vnoremap    <buffer>  <silent>  <LocalLeader>pin  <Esc>:call C_InsertTemplate("preprocessor.ifnd/;"	m
+<LocalLeader>pind	_vim/ftplugin/c.vim	/^ noremap    <buffer>  <silent>  <LocalLeader>pind      :call C_InsertTemplate("preprocessor.ifnd/;"	m
+<LocalLeader>pind	_vim/ftplugin/c.vim	/^inoremap    <buffer>  <silent>  <LocalLeader>pind <Esc>:call C_InsertTemplate("preprocessor.ifnd/;"	m
+<LocalLeader>pind	_vim/ftplugin/c.vim	/^vnoremap    <buffer>  <silent>  <LocalLeader>pind <Esc>:call C_InsertTemplate("preprocessor.ifnd/;"	m
+<LocalLeader>pl	_vim/ftplugin/c.vim	/^ noremap    <buffer>  <silent>  <LocalLeader>pl        :call C_InsertTemplate("preprocessor.line/;"	m
+<LocalLeader>pl	_vim/ftplugin/c.vim	/^inoremap    <buffer>  <silent>  <LocalLeader>pl   <Esc>:call C_InsertTemplate("preprocessor.line/;"	m
+<LocalLeader>pp	_vim/ftplugin/c.vim	/^ noremap    <buffer>  <silent>  <LocalLeader>pp        :call C_InsertTemplate("preprocessor.prag/;"	m
+<LocalLeader>pp	_vim/ftplugin/c.vim	/^inoremap    <buffer>  <silent>  <LocalLeader>pp   <Esc>:call C_InsertTemplate("preprocessor.prag/;"	m
+<LocalLeader>pr0	_vim/ftplugin/c.vim	/^ noremap    <buffer>  <silent>  <LocalLeader>pr0       :call C_PPIf0Remove()<CR>$/;"	m
+<LocalLeader>pr0	_vim/ftplugin/c.vim	/^inoremap    <buffer>  <silent>  <LocalLeader>pr0  <Esc>:call C_PPIf0Remove()<CR>$/;"	m
+<LocalLeader>pu	_vim/ftplugin/c.vim	/^ noremap    <buffer>  <silent>  <LocalLeader>pu        :call C_InsertTemplate("preprocessor.unde/;"	m
+<LocalLeader>pu	_vim/ftplugin/c.vim	/^inoremap    <buffer>  <silent>  <LocalLeader>pu   <Esc>:call C_InsertTemplate("preprocessor.unde/;"	m
+<LocalLeader>ra	_vim/ftplugin/c.vim	/^ map    <buffer>  <silent>  <LocalLeader>ra         :call C_Arguments()<CR>$/;"	m
+<LocalLeader>ra	_vim/ftplugin/c.vim	/^imap    <buffer>  <silent>  <LocalLeader>ra    <C-C>:call C_Arguments()<CR>$/;"	m
+<LocalLeader>rc	_vim/ftplugin/c.vim	/^ map    <buffer>  <silent>  <LocalLeader>rc         :call C_Compile()<CR>:redraw<CR>:call C_HlMe/;"	m
+<LocalLeader>rc	_vim/ftplugin/c.vim	/^imap    <buffer>  <silent>  <LocalLeader>rc    <C-C>:call C_Compile()<CR>:redraw<CR>:call C_HlMe/;"	m
+<LocalLeader>rd	_vim/ftplugin/c.vim	/^ map    <buffer>  <silent>  <LocalLeader>rd         :call C_Indent("a")<CR>:redraw<CR>:call C_Hl/;"	m
+<LocalLeader>rd	_vim/ftplugin/c.vim	/^imap    <buffer>  <silent>  <LocalLeader>rd    <C-C>:call C_Indent("a")<CR>:redraw<CR>:call C_Hl/;"	m
+<LocalLeader>rd	_vim/ftplugin/c.vim	/^vmap    <buffer>  <silent>  <LocalLeader>rd    <C-C>:call C_Indent("v")<CR>:redraw<CR>:call C_Hl/;"	m
+<LocalLeader>re	_vim/ftplugin/c.vim	/^  map    <buffer>  <silent>  <LocalLeader>re         :call C_CodeCheckArguments()<CR>$/;"	m
+<LocalLeader>re	_vim/ftplugin/c.vim	/^ imap    <buffer>  <silent>  <LocalLeader>re    <C-C>:call C_CodeCheckArguments()<CR>$/;"	m
+<LocalLeader>rg	_vim/ftplugin/c.vim	/^ map    <buffer>  <silent>  <LocalLeader>rg         :call C_MakeArguments()<CR>$/;"	m
+<LocalLeader>rg	_vim/ftplugin/c.vim	/^imap    <buffer>  <silent>  <LocalLeader>rg    <C-C>:call C_MakeArguments()<CR>$/;"	m
+<LocalLeader>rh	_vim/ftplugin/c.vim	/^ map    <buffer>  <silent>  <LocalLeader>rh         :call C_Hardcopy("n")<CR>$/;"	m
+<LocalLeader>rh	_vim/ftplugin/c.vim	/^imap    <buffer>  <silent>  <LocalLeader>rh    <C-C>:call C_Hardcopy("n")<CR>$/;"	m
+<LocalLeader>rh	_vim/ftplugin/c.vim	/^vmap    <buffer>  <silent>  <LocalLeader>rh    <C-C>:call C_Hardcopy("v")<CR>$/;"	m
+<LocalLeader>ri	_vim/ftplugin/c.vim	/^ map    <buffer>  <silent>  <LocalLeader>ri         :call C_SplintArguments()<CR>$/;"	m
+<LocalLeader>ri	_vim/ftplugin/c.vim	/^imap    <buffer>  <silent>  <LocalLeader>ri    <C-C>:call C_SplintArguments()<CR>$/;"	m
+<LocalLeader>rk	_vim/ftplugin/c.vim	/^  map    <buffer>  <silent>  <LocalLeader>rk         :call C_CodeCheck()<CR>:redraw<CR>:call C_H/;"	m
+<LocalLeader>rk	_vim/ftplugin/c.vim	/^ imap    <buffer>  <silent>  <LocalLeader>rk    <C-C>:call C_CodeCheck()<CR>:redraw<CR>:call C_H/;"	m
+<LocalLeader>rl	_vim/ftplugin/c.vim	/^ map    <buffer>  <silent>  <LocalLeader>rl         :call C_Link()<CR>:redraw<CR>:call C_HlMessa/;"	m
+<LocalLeader>rl	_vim/ftplugin/c.vim	/^imap    <buffer>  <silent>  <LocalLeader>rl    <C-C>:call C_Link()<CR>:redraw<CR>:call C_HlMessa/;"	m
+<LocalLeader>rm	_vim/ftplugin/c.vim	/^ map    <buffer>  <silent>  <LocalLeader>rm         :call C_Make()<CR>$/;"	m
+<LocalLeader>rm	_vim/ftplugin/c.vim	/^imap    <buffer>  <silent>  <LocalLeader>rm    <C-C>:call C_Make()<CR>$/;"	m
+<LocalLeader>ro	_vim/ftplugin/c.vim	/^ map    <buffer>  <silent>  <LocalLeader>ro         :call C_Toggle_Gvim_Xterm()<CR>$/;"	m
+<LocalLeader>ro	_vim/ftplugin/c.vim	/^imap    <buffer>  <silent>  <LocalLeader>ro    <C-C>:call C_Toggle_Gvim_Xterm()<CR>$/;"	m
+<LocalLeader>rp	_vim/ftplugin/c.vim	/^ map    <buffer>  <silent>  <LocalLeader>rp         :call C_SplintCheck()<CR>:redraw<CR>:call C_/;"	m
+<LocalLeader>rp	_vim/ftplugin/c.vim	/^imap    <buffer>  <silent>  <LocalLeader>rp    <C-C>:call C_SplintCheck()<CR>:redraw<CR>:call C_/;"	m
+<LocalLeader>rr	_vim/ftplugin/c.vim	/^ map    <buffer>  <silent>  <LocalLeader>rr         :call C_Run()<CR>$/;"	m
+<LocalLeader>rr	_vim/ftplugin/c.vim	/^imap    <buffer>  <silent>  <LocalLeader>rr    <C-C>:call C_Run()<CR>$/;"	m
+<LocalLeader>rs	_vim/ftplugin/c.vim	/^ map    <buffer>  <silent>  <LocalLeader>rs         :call C_Settings()<CR>$/;"	m
+<LocalLeader>rs	_vim/ftplugin/c.vim	/^imap    <buffer>  <silent>  <LocalLeader>rs    <C-C>:call C_Settings()<CR>$/;"	m
+<LocalLeader>rx	_vim/ftplugin/c.vim	/^   map    <buffer>  <silent>  <LocalLeader>rx         :call C_XtermSize()<CR>$/;"	m
+<LocalLeader>rx	_vim/ftplugin/c.vim	/^  imap    <buffer>  <silent>  <LocalLeader>rx    <C-C>:call C_XtermSize()<CR>$/;"	m
+<LocalLeader>sc	_vim/ftplugin/c.vim	/^ noremap    <buffer>  <silent>  <LocalLeader>sc         :call C_InsertTemplate("statements.case"/;"	m
+<LocalLeader>sc	_vim/ftplugin/c.vim	/^inoremap    <buffer>  <silent>  <LocalLeader>sc    <Esc>:call C_InsertTemplate("statements.case"/;"	m
+<LocalLeader>sd	_vim/ftplugin/c.vim	/^ noremap    <buffer>  <silent>  <LocalLeader>sd         :call C_InsertTemplate("statements.do-wh/;"	m
+<LocalLeader>sd	_vim/ftplugin/c.vim	/^inoremap    <buffer>  <silent>  <LocalLeader>sd    <Esc>:call C_InsertTemplate("statements.do-wh/;"	m
+<LocalLeader>sd	_vim/ftplugin/c.vim	/^vnoremap    <buffer>  <silent>  <LocalLeader>sd    <Esc>:call C_InsertTemplate("statements.do-wh/;"	m
+<LocalLeader>sf	_vim/ftplugin/c.vim	/^ noremap    <buffer>  <silent>  <LocalLeader>sf         :call C_InsertTemplate("statements.for")/;"	m
+<LocalLeader>sf	_vim/ftplugin/c.vim	/^inoremap    <buffer>  <silent>  <LocalLeader>sf    <Esc>:call C_InsertTemplate("statements.for")/;"	m
+<LocalLeader>sfo	_vim/ftplugin/c.vim	/^ noremap    <buffer>  <silent>  <LocalLeader>sfo        :call C_InsertTemplate("statements.for-b/;"	m
+<LocalLeader>sfo	_vim/ftplugin/c.vim	/^inoremap    <buffer>  <silent>  <LocalLeader>sfo   <Esc>:call C_InsertTemplate("statements.for-b/;"	m
+<LocalLeader>sfo	_vim/ftplugin/c.vim	/^vnoremap    <buffer>  <silent>  <LocalLeader>sfo   <Esc>:call C_InsertTemplate("statements.for-b/;"	m
+<LocalLeader>si	_vim/ftplugin/c.vim	/^ noremap    <buffer>  <silent>  <LocalLeader>si         :call C_InsertTemplate("statements.if")</;"	m
+<LocalLeader>si	_vim/ftplugin/c.vim	/^inoremap    <buffer>  <silent>  <LocalLeader>si    <Esc>:call C_InsertTemplate("statements.if")</;"	m
+<LocalLeader>sie	_vim/ftplugin/c.vim	/^ noremap    <buffer>  <silent>  <LocalLeader>sie        :call C_InsertTemplate("statements.if-el/;"	m
+<LocalLeader>sie	_vim/ftplugin/c.vim	/^inoremap    <buffer>  <silent>  <LocalLeader>sie   <Esc>:call C_InsertTemplate("statements.if-el/;"	m
+<LocalLeader>sie	_vim/ftplugin/c.vim	/^vnoremap    <buffer>  <silent>  <LocalLeader>sie   <Esc>:call C_InsertTemplate("statements.if-el/;"	m
+<LocalLeader>sif	_vim/ftplugin/c.vim	/^ noremap    <buffer>  <silent>  <LocalLeader>sif        :call C_InsertTemplate("statements.if-bl/;"	m
+<LocalLeader>sif	_vim/ftplugin/c.vim	/^inoremap    <buffer>  <silent>  <LocalLeader>sif   <Esc>:call C_InsertTemplate("statements.if-bl/;"	m
+<LocalLeader>sif	_vim/ftplugin/c.vim	/^vnoremap    <buffer>  <silent>  <LocalLeader>sif   <Esc>:call C_InsertTemplate("statements.if-bl/;"	m
+<LocalLeader>sife	_vim/ftplugin/c.vim	/^ noremap    <buffer>  <silent>  <LocalLeader>sife       :call C_InsertTemplate("statements.if-bl/;"	m
+<LocalLeader>sife	_vim/ftplugin/c.vim	/^inoremap    <buffer>  <silent>  <LocalLeader>sife  <Esc>:call C_InsertTemplate("statements.if-bl/;"	m
+<LocalLeader>sife	_vim/ftplugin/c.vim	/^vnoremap    <buffer>  <silent>  <LocalLeader>sife  <Esc>:call C_InsertTemplate("statements.if-bl/;"	m
+<LocalLeader>ss	_vim/ftplugin/c.vim	/^ noremap    <buffer>  <silent>  <LocalLeader>ss         :call C_InsertTemplate("statements.switc/;"	m
+<LocalLeader>ss	_vim/ftplugin/c.vim	/^inoremap    <buffer>  <silent>  <LocalLeader>ss    <Esc>:call C_InsertTemplate("statements.switc/;"	m
+<LocalLeader>ss	_vim/ftplugin/c.vim	/^vnoremap    <buffer>  <silent>  <LocalLeader>ss    <Esc>:call C_InsertTemplate("statements.switc/;"	m
+<LocalLeader>sw	_vim/ftplugin/c.vim	/^ noremap    <buffer>  <silent>  <LocalLeader>sw         :call C_InsertTemplate("statements.while/;"	m
+<LocalLeader>sw	_vim/ftplugin/c.vim	/^inoremap    <buffer>  <silent>  <LocalLeader>sw    <Esc>:call C_InsertTemplate("statements.while/;"	m
+<LocalLeader>swh	_vim/ftplugin/c.vim	/^ noremap    <buffer>  <silent>  <LocalLeader>swh        :call C_InsertTemplate("statements.while/;"	m
+<LocalLeader>swh	_vim/ftplugin/c.vim	/^inoremap    <buffer>  <silent>  <LocalLeader>swh   <Esc>:call C_InsertTemplate("statements.while/;"	m
+<LocalLeader>swh	_vim/ftplugin/c.vim	/^vnoremap    <buffer>  <silent>  <LocalLeader>swh   <Esc>:call C_InsertTemplate("statements.while/;"	m
+<LocalLeader>s{	_vim/ftplugin/c.vim	/^ noremap    <buffer>  <silent>  <LocalLeader>s{         :call C_InsertTemplate("statements.block/;"	m
+<LocalLeader>s{	_vim/ftplugin/c.vim	/^inoremap    <buffer>  <silent>  <LocalLeader>s{    <Esc>:call C_InsertTemplate("statements.block/;"	m
+<LocalLeader>s{	_vim/ftplugin/c.vim	/^vnoremap    <buffer>  <silent>  <LocalLeader>s{    <Esc>:call C_InsertTemplate("statements.block/;"	m
+<Return>	_vim/plugin/taglist.vim	/^    inoremap <buffer> <silent> <Return>$/;"	m
+<S-F2>	_vim/ftplugin/c.vim	/^ map  <buffer>  <silent>  <S-F2>       :A<CR>$/;"	m
+<S-F2>	_vim/ftplugin/c.vim	/^imap  <buffer>  <silent>  <S-F2>  <C-C>:A<CR>$/;"	m
+<S-Left>	_vimrc	/^map <S-Left> :tabp<CR>$/;"	m
+<S-Right>	_vimrc	/^map <S-Right> :tabn<CR>$/;"	m
+<SID>xx	_vim/plugin/taglist.vim	/^    map <SID>xx <SID>xx$/;"	m
+<Space>	_vim/plugin/taglist.vim	/^    inoremap <buffer> <silent> <Space>       <C-o>:call$/;"	m
+<Space>	_vim/plugin/taglist.vim	/^    nnoremap <buffer> <silent> <Space> :call <SID>Tlist_Window_Show_Info()<CR>$/;"	m
+<Tab>	_vim/plugin/taglist.vim	/^    inoremap <buffer> <silent> <Tab> <C-o>:call <SID>Tlist_Window_Move_To_File(1)<CR>$/;"	m
+<Tab>	_vim/plugin/taglist.vim	/^    nnoremap <buffer> <silent> <Tab> :call <SID>Tlist_Window_Move_To_File(1)<CR>$/;"	m
+<kMinus>	_vim/plugin/taglist.vim	/^    inoremap <buffer> <silent> <kMinus>      <C-o>:silent! foldclose<CR>$/;"	m
+<kMinus>	_vim/plugin/taglist.vim	/^    nnoremap <buffer> <silent> <kMinus> :silent! foldclose<CR>$/;"	m
+<kMultiply>	_vim/plugin/taglist.vim	/^    inoremap <buffer> <silent> <kMultiply>   <C-o>:silent! %foldopen!<CR>$/;"	m
+<kMultiply>	_vim/plugin/taglist.vim	/^    nnoremap <buffer> <silent> <kMultiply> :silent! %foldopen!<CR>$/;"	m
+<kPlus>	_vim/plugin/taglist.vim	/^    inoremap <buffer> <silent> <kPlus>       <C-o>:silent! foldopen<CR>$/;"	m
+<kPlus>	_vim/plugin/taglist.vim	/^    nnoremap <buffer> <silent> <kPlus> :silent! foldopen<CR>$/;"	m
+=	_vim/plugin/taglist.vim	/^    inoremap <buffer> <silent> =             <C-o>:silent! %foldclose<CR>$/;"	m
+=	_vim/plugin/taglist.vim	/^    nnoremap <buffer> <silent> = :silent! %foldclose<CR>$/;"	m
+>	_vim/autoload/omni/cpp/complete.vim	/^    inoremap <expr> > omni#cpp#maycomplete#Arrow()$/;"	m
+ALL_CFLAGS	_vim/c-support/codesnippets/Makefile	/^ALL_CFLAGS      = $(CFLAGS) $(ALL_INC_DIR)$/;"	m
+ALL_INC_DIR	_vim/c-support/codesnippets/Makefile	/^ALL_INC_DIR     = $(addprefix -I, $(LOCAL_INC_DIR) $(GLOBAL_INC_DIR))$/;"	m
+ALL_LFLAGS	_vim/c-support/codesnippets/Makefile	/^ALL_LFLAGS      = $(LDFLAGS) $(ALL_LIB_DIR)$/;"	m
+ALL_LIB_DIR	_vim/c-support/codesnippets/Makefile	/^ALL_LIB_DIR     = $(addprefix -L, $(LOCAL_LIB_DIR) $(GLOBAL_LIB_DIR))$/;"	m
+BASENAMES	_vim/c-support/codesnippets/Makefile	/^BASENAMES       = $(basename $(SOURCES))$/;"	m
+CC	_vim/c-support/codesnippets/Makefile	/^CC              := gcc$/;"	m
+CFLAGS	_vim/c-support/codesnippets/Makefile	/^  CFLAGS       := ${CFLAGS}   -pg -O3$/;"	m
+CFLAGS	_vim/c-support/codesnippets/Makefile	/^  CFLAGS       := ${DEBUG_CFLAGS}$/;"	m
+CFLAGS	_vim/c-support/codesnippets/Makefile	/^  CFLAGS       := ${RELEASE_CFLAGS}$/;"	m
+CPP_SOURCES	_vim/c-support/codesnippets/Makefile	/^CPP_SOURCES     = $(filter-out %.c, $(SOURCES))$/;"	m
+CXX	_vim/c-support/codesnippets/Makefile	/^CXX             := g++$/;"	m
+CXXFLAGS	_vim/c-support/codesnippets/Makefile	/^  CXXFLAGS     := ${CXXFLAGS} -pg -O3$/;"	m
+CXXFLAGS	_vim/c-support/codesnippets/Makefile	/^  CXXFLAGS     := ${DEBUG_CXXFLAGS}$/;"	m
+CXXFLAGS	_vim/c-support/codesnippets/Makefile	/^  CXXFLAGS     := ${RELEASE_CXXFLAGS}$/;"	m
+C_AdjustLineEndComm	_vim/plugin/c.vim	/^function! C_AdjustLineEndComm ( mode ) range$/;"	f
+C_ApplyFlag	_vim/plugin/c.vim	/^function! C_ApplyFlag ( val, flag )$/;"	f
+C_Arguments	_vim/plugin/c.vim	/^function! C_Arguments ()$/;"	f
+C_CIncludeMenus	_vim/plugin/c.vim	/^function! C_CIncludeMenus ( menupath, liblist )$/;"	f
+C_CIosFlagMenus	_vim/plugin/c.vim	/^function! C_CIosFlagMenus ( menupath, flaglist )$/;"	f
+C_CheckGlobal	_vim/plugin/c.vim	/^function! C_CheckGlobal ( name )$/;"	f
+C_CodeCheck	_vim/plugin/c.vim	/^function! C_CodeCheck ()$/;"	f
+C_CodeCheckArguments	_vim/plugin/c.vim	/^function! C_CodeCheckArguments ()$/;"	f
+C_CodeComment	_vim/plugin/c.vim	/^function! C_CodeComment( mode, style )$/;"	f
+C_CodeFor	_vim/plugin/c.vim	/^function! C_CodeFor( direction, mode )$/;"	f
+C_CodeSnippet	_vim/plugin/c.vim	/^function! C_CodeSnippet(mode)$/;"	f
+C_CommentCToCpp	_vim/plugin/c.vim	/^function! C_CommentCToCpp()$/;"	f
+C_CommentCode	_vim/plugin/c.vim	/^function! C_CommentCode(mode)$/;"	f
+C_CommentCppToC	_vim/plugin/c.vim	/^function! C_CommentCppToC()$/;"	f
+C_Comment_C_SectionAll	_vim/plugin/c.vim	/^function! C_Comment_C_SectionAll ( type )$/;"	f
+C_Comment_H_SectionAll	_vim/plugin/c.vim	/^function! C_Comment_H_SectionAll ( type )$/;"	f
+C_Compile	_vim/plugin/c.vim	/^function! C_Compile ()$/;"	f
+C_CreateGuiMenus	_vim/plugin/c.vim	/^function! C_CreateGuiMenus ()$/;"	f
+C_DateAndTime	_vim/plugin/c.vim	/^function! C_DateAndTime ( format )$/;"	f
+C_EditTemplates	_vim/plugin/c.vim	/^function! C_EditTemplates ( type )$/;"	f
+C_EscapeBlanks	_vim/plugin/c.vim	/^function! C_EscapeBlanks (arg)$/;"	f
+C_ExpandSingleMacro	_vim/plugin/c.vim	/^function! C_ExpandSingleMacro ( val, macroname, replacement )$/;"	f
+C_ExpandUserMacros	_vim/plugin/c.vim	/^function! C_ExpandUserMacros ( key )$/;"	f
+C_ForTypeComplete	_vim/plugin/c.vim	/^function!	C_ForTypeComplete ( ArgLead, CmdLine, CursorPos )$/;"	f
+C_GetLineEndCommCol	_vim/plugin/c.vim	/^function! C_GetLineEndCommCol ()$/;"	f
+C_Hardcopy	_vim/plugin/c.vim	/^function! C_Hardcopy (arg1)$/;"	f
+C_Help	_vim/plugin/c.vim	/^function! C_Help( type )$/;"	f
+C_HelpCsupport	_vim/plugin/c.vim	/^function! C_HelpCsupport ()$/;"	f
+C_HlMessage	_vim/plugin/c.vim	/^function! C_HlMessage ()$/;"	f
+C_Indent	_vim/plugin/c.vim	/^function! C_Indent ( mode )$/;"	f
+C_InitMenus	_vim/plugin/c.vim	/^function! C_InitMenus ()$/;"	f
+C_Input	_vim/plugin/c.vim	/^function! C_Input ( promp, text, ... )$/;"	f
+C_InsertDateAndTime	_vim/plugin/c.vim	/^function! C_InsertDateAndTime ( format )$/;"	f
+C_InsertMacroValue	_vim/plugin/c.vim	/^function! C_InsertMacroValue ( key )$/;"	f
+C_InsertTemplate	_vim/plugin/c.vim	/^function! C_InsertTemplate ( key, ... )$/;"	f
+C_InsertTemplateWrapper	_vim/plugin/c.vim	/^function! C_InsertTemplateWrapper ()$/;"	f
+C_JumpForward	_vim/plugin/c.vim	/^function! C_JumpForward ()$/;"	f
+C_LegalizeName	_vim/plugin/c.vim	/^function! C_LegalizeName ( name )$/;"	f
+C_LineEndComment	_vim/plugin/c.vim	/^function! C_LineEndComment ( )$/;"	f
+C_Link	_vim/plugin/c.vim	/^function! C_Link ()$/;"	f
+C_Make	_vim/plugin/c.vim	/^function! C_Make()$/;"	f
+C_MakeArguments	_vim/plugin/c.vim	/^function! C_MakeArguments ()$/;"	f
+C_MultiLineEndComments	_vim/plugin/c.vim	/^function! C_MultiLineEndComments ( )$/;"	f
+C_OpenFold	_vim/plugin/c.vim	/^function! C_OpenFold ( mode )$/;"	f
+C_PPIf0	_vim/plugin/c.vim	/^function! C_PPIf0 (mode)$/;"	f
+C_PPIf0Remove	_vim/plugin/c.vim	/^function! C_PPIf0Remove ()$/;"	f
+C_ProtoClear	_vim/plugin/c.vim	/^function! C_ProtoClear ()$/;"	f
+C_ProtoInsert	_vim/plugin/c.vim	/^function! C_ProtoInsert ()$/;"	f
+C_ProtoPick	_vim/plugin/c.vim	/^function! C_ProtoPick (mode)$/;"	f
+C_ProtoShow	_vim/plugin/c.vim	/^function! C_ProtoShow ()$/;"	f
+C_ReadTemplates	_vim/plugin/c.vim	/^function! C_ReadTemplates ( templatefile )$/;"	f
+C_RemoveCComment	_vim/plugin/c.vim	/^function! C_RemoveCComment( start, end )$/;"	f
+C_RemoveGuiMenus	_vim/plugin/c.vim	/^function! C_RemoveGuiMenus ()$/;"	f
+C_RereadTemplates	_vim/plugin/c.vim	/^function! C_RereadTemplates ()$/;"	f
+C_Run	_vim/plugin/c.vim	/^function! C_Run ()$/;"	f
+C_SOURCES	_vim/c-support/codesnippets/Makefile	/^C_SOURCES       = $(filter     %.c, $(SOURCES))$/;"	m
+C_SetSmallCommentStyle	_vim/plugin/c.vim	/^function! C_SetSmallCommentStyle ()$/;"	f
+C_Settings	_vim/plugin/c.vim	/^function! C_Settings ()$/;"	f
+C_SplintArguments	_vim/plugin/c.vim	/^function! C_SplintArguments ()$/;"	f
+C_SplintCheck	_vim/plugin/c.vim	/^function! C_SplintCheck ()$/;"	f
+C_Toggle_Gvim_Xterm	_vim/plugin/c.vim	/^function! C_Toggle_Gvim_Xterm ()$/;"	f
+C_ToolMenu	_vim/plugin/c.vim	/^function! C_ToolMenu ()$/;"	f
+C_XtermSize	_vim/plugin/c.vim	/^function! C_XtermSize ()$/;"	f
+CodeComplete	_vim/plugin/code_complete.vim	/^function! CodeComplete()$/;"	f
+CodeCompleteStart	_vim/plugin/code_complete.vim	/^function! CodeCompleteStart()$/;"	f
+CodeCompleteStop	_vim/plugin/code_complete.vim	/^function! CodeCompleteStop()$/;"	f
+CompileRunGcc	_vimrc	/^func! CompileRunGcc()$/;"	f
+DEBUG	_vim/c-support/codesnippets/Makefile	/^DEBUG          := YES$/;"	m
+DEBUG_LDFLAGS	_vim/c-support/codesnippets/Makefile	/^DEBUG_LDFLAGS    := -g$/;"	m
+EXECUTABLE	_vim/c-support/codesnippets/Makefile	/^EXECUTABLE      := main$/;"	m
+EXE_CMDLINE	_vim/c-support/codesnippets/Makefile	/^EXE_CMDLINE     =$/;"	m
+EXE_START	_vim/c-support/codesnippets/Makefile	/^EXE_START       = no$/;"	m
+ExpandTemplate	_vim/plugin/code_complete.vim	/^function! ExpandTemplate(cword)$/;"	f
+FormartSrc	_vimrc	/^func FormartSrc()$/;"	f
+FunctionComplete	_vim/plugin/code_complete.vim	/^function! FunctionComplete(fun)$/;"	f
+GLOBAL_INC_DIR	_vim/c-support/codesnippets/Makefile	/^GLOBAL_INC_DIR  =$/;"	m
+GLOBAL_LIBS	_vim/c-support/codesnippets/Makefile	/^GLOBAL_LIBS     =$/;"	m
+GLOBAL_LIBSS	_vim/c-support/codesnippets/Makefile	/^GLOBAL_LIBSS    = $(addprefix $(GLOBAL_LIB_DIR)\/, $(GLOBAL_LIBS))$/;"	m
+GLOBAL_LIB_DIR	_vim/c-support/codesnippets/Makefile	/^GLOBAL_LIB_DIR  =$/;"	m
+GetFileName	_vim/plugin/code_complete.vim	/^function! GetFileName()$/;"	f
+LDFLAGS	_vim/c-support/codesnippets/Makefile	/^  LDFLAGS      := ${DEBUG_LDFLAGS}$/;"	m
+LDFLAGS	_vim/c-support/codesnippets/Makefile	/^  LDFLAGS      := ${LDFLAGS}  -pg$/;"	m
+LDFLAGS	_vim/c-support/codesnippets/Makefile	/^  LDFLAGS      := ${RELEASE_LDFLAGS}$/;"	m
+LOCAL_INC_DIR	_vim/c-support/codesnippets/Makefile	/^LOCAL_INC_DIR   = $(HOME)\/include$/;"	m
+LOCAL_LIBS	_vim/c-support/codesnippets/Makefile	/^LOCAL_LIBS      =$/;"	m
+LOCAL_LIBSS	_vim/c-support/codesnippets/Makefile	/^LOCAL_LIBSS     = $(addprefix $(LOCAL_LIB_DIR)\/, $(LOCAL_LIBS))$/;"	m
+LOCAL_LIB_DIR	_vim/c-support/codesnippets/Makefile	/^LOCAL_LIB_DIR   = $(HOME)\/lib$/;"	m
+NERDTreeIgnore	_vimrc	/^let NERDTreeIgnore=['\\.pyc']$/;"	v
+OBJECTS	_vim/c-support/codesnippets/Makefile	/^OBJECTS         = $(addsuffix .o,$(BASENAMES))$/;"	m
+P	_vim/plugin/taglist.vim	/^    inoremap <buffer> <silent> P$/;"	m
+P	_vim/plugin/taglist.vim	/^    nnoremap <buffer> <silent> P$/;"	m
+PREREQUISITES	_vim/c-support/codesnippets/Makefile	/^PREREQUISITES   = $(addprefix .,$(addsuffix .d,$(BASENAMES)))$/;"	m
+PROFILE	_vim/c-support/codesnippets/Makefile	/^PROFILE        := NO$/;"	m
+RELEASE_CFLAGS	_vim/c-support/codesnippets/Makefile	/^RELEASE_CFLAGS  := -Wall -ansi -pedantic -O3$/;"	m
+RELEASE_LDFLAGS	_vim/c-support/codesnippets/Makefile	/^RELEASE_LDFLAGS  :=$/;"	m
+Rungdb	_vimrc	/^func! Rungdb()$/;"	f
+SOURCES	_vim/c-support/codesnippets/Makefile	/^SOURCES         := main.c $/;"	m
+SYS_LIBS	_vim/c-support/codesnippets/Makefile	/^SYS_LIBS        = -lm$/;"	m
+SetTitle	_vimrc	/^func SetTitle() $/;"	f
+SwitchRegion	_vim/plugin/code_complete.vim	/^function! SwitchRegion()$/;"	f
+SystemVariables	_vim/c-support/rc/customization.ctags	/^--regex-qmake=\/^([[:upper:]_]+)\/\\1\/t,SystemVariables\/$/;"	k	langdef:qmake
+TARBALL_EXCLUDE	_vim/c-support/codesnippets/Makefile	/^TARBALL_EXCLUDE = *.{o,gz,zip}$/;"	m
+TagListAutoCmds	_vim/plugin/taglist.vim	/^    augroup TagListAutoCmds$/;"	a
+TagListMenuCmds	_vim/plugin/taglist.vim	/^    augroup TagListMenuCmds$/;"	a
+TagList_IsValid	_vim/plugin/taglist.vim	/^function! TagList_IsValid()$/;"	f
+TagList_Start	_vim/plugin/taglist.vim	/^function! TagList_Start()$/;"	f
+TagList_WrapUp	_vim/plugin/taglist.vim	/^function! TagList_WrapUp()$/;"	f
+TagList_title	_vim/plugin/taglist.vim	/^    let TagList_title = "__Tag_List__"$/;"	v
+Tlist	_vim/plugin/taglist.vim	/^    command! -nargs=0 -bar Tlist TlistToggle$/;"	c
+TlistAddFiles	_vim/plugin/taglist.vim	/^    command! -nargs=+ -complete=file TlistAddFiles$/;"	c
+TlistAddFilesRecursive	_vim/plugin/taglist.vim	/^    command! -nargs=+ -complete=dir TlistAddFilesRecursive$/;"	c
+TlistClose	_vim/plugin/taglist.vim	/^    command! -nargs=0 -bar TlistClose call s:Tlist_Window_Close()$/;"	c
+TlistDebug	_vim/plugin/taglist.vim	/^    command! -nargs=? -complete=file -bar TlistDebug$/;"	c
+TlistHighlightTag	_vim/plugin/taglist.vim	/^    command! -nargs=0 -bar TlistHighlightTag call s:Tlist_Window_Highlight_Tag($/;"	c
+TlistLock	_vim/plugin/taglist.vim	/^    command! -bar TlistLock let Tlist_Auto_Update=0$/;"	c
+TlistMessages	_vim/plugin/taglist.vim	/^    command! -nargs=0 -bar TlistMessages call s:Tlist_Debug_Show()$/;"	c
+TlistOpen	_vim/plugin/taglist.vim	/^    command! -nargs=0 -bar TlistOpen call s:Tlist_Window_Open()$/;"	c
+TlistSessionLoad	_vim/plugin/taglist.vim	/^    command! -nargs=* -complete=file TlistSessionLoad$/;"	c
+TlistSessionSave	_vim/plugin/taglist.vim	/^    command! -nargs=* -complete=file TlistSessionSave$/;"	c
+TlistShowPrototype	_vim/plugin/taglist.vim	/^    command! -nargs=* -complete=buffer TlistShowPrototype$/;"	c
+TlistShowTag	_vim/plugin/taglist.vim	/^    command! -nargs=* -complete=buffer TlistShowTag$/;"	c
+TlistSync	_vim/plugin/taglist.vim	/^    command! -nargs=0 -bar TlistSync TlistHighlightTag$/;"	c
+TlistToggle	_vim/plugin/taglist.vim	/^    command! -nargs=0 -bar TlistToggle call s:Tlist_Window_Toggle()$/;"	c
+TlistUndebug	_vim/plugin/taglist.vim	/^    command! -nargs=0 -bar TlistUndebug  call s:Tlist_Debug_Disable()$/;"	c
+TlistUnlock	_vim/plugin/taglist.vim	/^    command! -bar TlistUnlock let Tlist_Auto_Update=1$/;"	c
+TlistUpdate	_vim/plugin/taglist.vim	/^    command! -nargs=0 -bar TlistUpdate call s:Tlist_Update_Current_File()$/;"	c
+Tlist_Auto_Highlight_Tag	_vim/plugin/taglist.vim	/^        let Tlist_Auto_Highlight_Tag = 1$/;"	v
+Tlist_Auto_Open	_vim/plugin/taglist.vim	/^        let Tlist_Auto_Open = 0$/;"	v
+Tlist_Auto_Open	_vimrc	/^let Tlist_Auto_Open = 1			"默认不打开Taglist$/;"	v
+Tlist_Auto_Update	_vim/plugin/taglist.vim	/^        let Tlist_Auto_Update = 1$/;"	v
+Tlist_Ballon_Expr	_vim/plugin/taglist.vim	/^function! Tlist_Ballon_Expr()$/;"	f
+Tlist_Close_On_Select	_vim/plugin/taglist.vim	/^        let Tlist_Close_On_Select = 0$/;"	v
+Tlist_Compact_Format	_vim/plugin/taglist.vim	/^        let Tlist_Compact_Format = 0$/;"	v
+Tlist_Compart_Format	_vimrc	/^let Tlist_Compart_Format = 1    " 压缩方式  $/;"	v
+Tlist_Ctags_Cmd	_vim/plugin/taglist.vim	/^            let Tlist_Ctags_Cmd = 'ctags'$/;"	v
+Tlist_Ctags_Cmd	_vim/plugin/taglist.vim	/^            let Tlist_Ctags_Cmd = 'ctags.exe'$/;"	v
+Tlist_Ctags_Cmd	_vim/plugin/taglist.vim	/^            let Tlist_Ctags_Cmd = 'exctags'$/;"	v
+Tlist_Ctags_Cmd	_vim/plugin/taglist.vim	/^            let Tlist_Ctags_Cmd = 'exuberant-ctags'$/;"	v
+Tlist_Ctags_Cmd	_vim/plugin/taglist.vim	/^            let Tlist_Ctags_Cmd = 'tags'$/;"	v
+Tlist_Ctags_Cmd	_vimrc	/^let Tlist_Ctags_Cmd = '\/usr\/local\/bin\/ctags'$/;"	v
+Tlist_Display_Prototype	_vim/plugin/taglist.vim	/^        let Tlist_Display_Prototype = 0$/;"	v
+Tlist_Display_Tag_Scope	_vim/plugin/taglist.vim	/^        let Tlist_Display_Tag_Scope = 1$/;"	v
+Tlist_Enable_Fold_Column	_vim/plugin/taglist.vim	/^        let Tlist_Enable_Fold_Column = 1$/;"	v
+Tlist_Exist_OnlyWindow	_vimrc	/^let Tlist_Exist_OnlyWindow = 1  " 如果只有一个buffer，kill窗口也kill掉buffer  $/;"	v
+Tlist_Exit_OnlyWindow	_vim/plugin/taglist.vim	/^        let Tlist_Exit_OnlyWindow = 0$/;"	v
+Tlist_Exit_OnlyWindow	_vimrc	/^let Tlist_Exit_OnlyWindow = 1   "如果taglist窗口是最后一个窗口，则退出vim$/;"	v
+Tlist_File_Fold_Auto_Close	_vim/plugin/taglist.vim	/^        let Tlist_File_Fold_Auto_Close = 0$/;"	v
+Tlist_GainFocus_On_ToggleOpen	_vim/plugin/taglist.vim	/^        let Tlist_GainFocus_On_ToggleOpen = 0$/;"	v
+Tlist_Get_Tag_Prototype_By_Line	_vim/plugin/taglist.vim	/^function! Tlist_Get_Tag_Prototype_By_Line(...)$/;"	f
+Tlist_Get_Tagname_By_Line	_vim/plugin/taglist.vim	/^function! Tlist_Get_Tagname_By_Line(...)$/;"	f
+Tlist_Highlight_Tag_On_BufEnter	_vim/plugin/taglist.vim	/^        let Tlist_Highlight_Tag_On_BufEnter = 1$/;"	v
+Tlist_Inc_Winwidth	_vim/plugin/taglist.vim	/^            let Tlist_Inc_Winwidth = 0$/;"	v
+Tlist_Inc_Winwidth	_vim/plugin/taglist.vim	/^            let Tlist_Inc_Winwidth = 1$/;"	v
+Tlist_Max_Submenu_Items	_vim/plugin/taglist.vim	/^        let Tlist_Max_Submenu_Items = 20$/;"	v
+Tlist_Max_Tag_Length	_vim/plugin/taglist.vim	/^        let Tlist_Max_Tag_Length = 10$/;"	v
+Tlist_Process_File_Always	_vim/plugin/taglist.vim	/^        let Tlist_Process_File_Always = 0$/;"	v
+Tlist_Set_App	_vim/plugin/taglist.vim	/^function! Tlist_Set_App(name)$/;"	f
+Tlist_Show_Menu	_vim/plugin/taglist.vim	/^        let Tlist_Show_Menu = 0$/;"	v
+Tlist_Show_One_File	_vim/plugin/taglist.vim	/^        let Tlist_Show_One_File = 0$/;"	v
+Tlist_Sort_Type	_vim/plugin/taglist.vim	/^        let Tlist_Sort_Type = 'order'$/;"	v
+Tlist_Sort_Type	_vimrc	/^let Tlist_Sort_Type = "name"    " 按照名称排序  $/;"	v
+Tlist_Update_File	_vim/plugin/taglist.vim	/^function! Tlist_Update_File(filename, ftype)$/;"	f
+Tlist_Use_Horiz_Window	_vim/plugin/taglist.vim	/^        let Tlist_Use_Horiz_Window = 0$/;"	v
+Tlist_Use_Lift_Window	_vimrc	/^let Tlist_Use_Lift_Window = 1$/;"	v
+Tlist_Use_Right_Window	_vim/plugin/taglist.vim	/^        let Tlist_Use_Right_Window = 0$/;"	v
+Tlist_Use_SingleClick	_vim/plugin/taglist.vim	/^        let Tlist_Use_SingleClick = 0$/;"	v
+Tlist_WinHeight	_vim/plugin/taglist.vim	/^        let Tlist_WinHeight = 10$/;"	v
+Tlist_WinWidth	_vim/plugin/taglist.vim	/^        let Tlist_WinWidth = 30$/;"	v
+Tlist_WinWidth	_vimrc	/^let Tlist_WinWidth = 25$/;"	v
+ZIP_EXCLUDE	_vim/c-support/codesnippets/Makefile	/^ZIP_EXCLUDE     = *.{o,gz,zip}$/;"	m
+[[	_vim/plugin/taglist.vim	/^    inoremap <buffer> <silent> [[   <C-o>:call <SID>Tlist_Window_Move_To_File(-1)<CR>$/;"	m
+[[	_vim/plugin/taglist.vim	/^    nnoremap <buffer> <silent> [[ :call <SID>Tlist_Window_Move_To_File(-1)<CR>$/;"	m
+\\	_vimrc	/^nmap \\ \\cc$/;"	m
+\\	_vimrc	/^vmap \\ \\cc$/;"	m
+]]	_vim/plugin/taglist.vim	/^    inoremap <buffer> <silent> ]]   <C-o>:call <SID>Tlist_Window_Move_To_File(1)<CR>$/;"	m
+]]	_vim/plugin/taglist.vim	/^    nnoremap <buffer> <silent> ]] :call <SID>Tlist_Window_Move_To_File(1)<CR>$/;"	m
+b:did_C_ftplugin	_vim/ftplugin/c.vim	/^let b:did_C_ftplugin = 1$/;"	v
+calloc_double_matrix	_vim/c-support/codesnippets/calloc_double_matrix.c	/^calloc_double_matrix ( int rows, int columns )$/;"	f	typeref:typename:double **	signature:(int rows,int columns)
+calloc_int_matrix	_vim/c-support/codesnippets/calloc_int_matrix.c	/^calloc_int_matrix ( int rows, int columns )$/;"	f	typeref:typename:int **	signature:(int rows,int columns)
+clean	_vim/c-support/codesnippets/Makefile	/^clean:$/;"	t
+d	_vim/plugin/taglist.vim	/^    inoremap <buffer> <silent> d    <C-o>:call <SID>Tlist_Remove_File(-1, 1)<CR>$/;"	m
+d	_vim/plugin/taglist.vim	/^    nnoremap <buffer> <silent> d :call <SID>Tlist_Remove_File(-1, 1)<CR>$/;"	m
+fi	_vimrc	/^nmap fi :!firefox %.html & <CR><CR>$/;"	m
+free_double_matrix	_vim/c-support/codesnippets/calloc_double_matrix.c	/^free_double_matrix ( double **m )$/;"	f	typeref:typename:void	signature:(double ** m)
+free_int_matrix	_vim/c-support/codesnippets/calloc_int_matrix.c	/^free_int_matrix ( int **m )$/;"	f	typeref:typename:void	signature:(int ** m)
+g:C_Dictionary_File	_vim/plugin/c.vim	/^  let g:C_Dictionary_File = s:plugin_dir.'c-support\/wordlists\/c-c++-keywords.list,'.$/;"	v
+g:C_Version	_vim/plugin/c.vim	/^let g:C_Version= "5.5"  							" version number of this script; do not change$/;"	v
+g:OmniCpp_DefaultNamespaces	_vim/autoload/omni/cpp/settings.vim	/^        let g:OmniCpp_DefaultNamespaces = []$/;"	v
+g:OmniCpp_DisplayMode	_vim/autoload/omni/cpp/settings.vim	/^        let g:OmniCpp_DisplayMode = 0$/;"	v
+g:OmniCpp_GlobalScopeSearch	_vim/autoload/omni/cpp/settings.vim	/^        let g:OmniCpp_GlobalScopeSearch = 1$/;"	v
+g:OmniCpp_LocalSearchDecl	_vim/autoload/omni/cpp/settings.vim	/^        let g:OmniCpp_LocalSearchDecl= 0$/;"	v
+g:OmniCpp_MayCompleteArrow	_vim/autoload/omni/cpp/settings.vim	/^        let g:OmniCpp_MayCompleteArrow = 1$/;"	v
+g:OmniCpp_MayCompleteDot	_vim/autoload/omni/cpp/settings.vim	/^        let g:OmniCpp_MayCompleteDot = 1$/;"	v
+g:OmniCpp_MayCompleteScope	_vim/autoload/omni/cpp/settings.vim	/^        let g:OmniCpp_MayCompleteScope = 0$/;"	v
+g:OmniCpp_NamespaceSearch	_vim/autoload/omni/cpp/settings.vim	/^        let g:OmniCpp_NamespaceSearch = 1$/;"	v
+g:OmniCpp_SelectFirstItem	_vim/autoload/omni/cpp/settings.vim	/^        let g:OmniCpp_SelectFirstItem= 0$/;"	v
+g:OmniCpp_ShowAccess	_vim/autoload/omni/cpp/settings.vim	/^        let g:OmniCpp_ShowAccess = 1$/;"	v
+g:OmniCpp_ShowPrototypeInAbbr	_vim/autoload/omni/cpp/settings.vim	/^        let g:OmniCpp_ShowPrototypeInAbbr = 0$/;"	v
+g:OmniCpp_ShowScopeInAbbr	_vim/autoload/omni/cpp/settings.vim	/^        let g:OmniCpp_ShowScopeInAbbr = 0$/;"	v
+g:airline_theme	_vimrc	/^let g:airline_theme='light'$/;"	v
+g:completekey	_vim/plugin/code_complete.vim	/^    let g:completekey = "<tab>"   "hotkey$/;"	v
+g:ctrlp_custom_ignore	_vimrc	/^let g:ctrlp_custom_ignore = '\\v[\\\/]\\.(git|hg|svn)$'$/;"	v
+g:ctrlp_custom_ignore	_vimrc	/^let g:ctrlp_custom_ignore = '\\v\\.(exe|so|dll)$'$/;"	v
+g:ctrlp_extensions	_vimrc	/^let g:ctrlp_extensions = ['funky']$/;"	v
+g:gutentags_cache_dir	_vimrc	/^let g:gutentags_cache_dir = s:vim_tags$/;"	v
+g:gutentags_ctags_extra_args	_vimrc	/^let g:gutentags_ctags_extra_args += ['--c++-kinds=+px']$/;"	v
+g:gutentags_ctags_extra_args	_vimrc	/^let g:gutentags_ctags_extra_args += ['--c-kinds=+px']$/;"	v
+g:gutentags_ctags_extra_args	_vimrc	/^let g:gutentags_ctags_extra_args = ['--fields=+niazS', '--extra=+q']$/;"	v
+g:gutentags_ctags_tagfile	_vimrc	/^let g:gutentags_ctags_tagfile = '.tags'$/;"	v
+g:gutentags_project_root	_vimrc	/^let g:gutentags_project_root = ['.root', '.svn', '.git', '.hg', '.project']$/;"	v
+g:miniBufExplMapCTabSwitchBufs	_vimrc	/^let g:miniBufExplMapCTabSwitchBufs = 1$/;"	v
+g:miniBufExplMapWindowNavArrows	_vimrc	/^let g:miniBufExplMapWindowNavArrows = 1$/;"	v
+g:miniBufExplMapWindowNavVim	_vimrc	/^let g:miniBufExplMapWindowNavVim = 1$/;"	v
+g:miniBufExplModSelTarget	_vimrc	/^let g:miniBufExplModSelTarget = 1  $/;"	v
+g:miniBufExplModSelTarget	_vimrc	/^let g:miniBufExplModSelTarget = 1$/;"	v
+g:omni#cpp#includes#CACHE_FILE_TIME	_vim/autoload/omni/cpp/complete.vim	/^            let g:omni#cpp#includes#CACHE_FILE_TIME[szIncludeName] = fTime$/;"	v
+g:omni#cpp#includes#CACHE_FILE_TIME	_vim/autoload/omni/cpp/complete.vim	/^        let g:omni#cpp#includes#CACHE_FILE_TIME = {}$/;"	v
+g:omni#cpp#includes#CACHE_FILE_TIME	_vim/autoload/omni/cpp/includes.vim	/^    let g:omni#cpp#includes#CACHE_FILE_TIME[a:szFilePath] = getftime(a:szFilePath)$/;"	v
+g:omni#cpp#includes#CACHE_FILE_TIME	_vim/autoload/omni/cpp/includes.vim	/^let g:omni#cpp#includes#CACHE_FILE_TIME = {}$/;"	v
+g:omni#cpp#includes#CACHE_INCLUDES	_vim/autoload/omni/cpp/complete.vim	/^        let g:omni#cpp#includes#CACHE_INCLUDES = {}$/;"	v
+g:omni#cpp#includes#CACHE_INCLUDES	_vim/autoload/omni/cpp/includes.vim	/^    let g:omni#cpp#includes#CACHE_INCLUDES[a:szFilePath] = listIncludes$/;"	v
+g:omni#cpp#includes#CACHE_INCLUDES	_vim/autoload/omni/cpp/includes.vim	/^let g:omni#cpp#includes#CACHE_INCLUDES = {}$/;"	v
+g:omni#cpp#items#data	_vim/autoload/omni/cpp/complete.vim	/^            let g:omni#cpp#items#data = omni#cpp#items#Get(omni#cpp#utils#TokenizeCurrentInstruc/;"	v
+g:omni#cpp#items#data	_vim/autoload/omni/cpp/maycomplete.vim	/^                let g:omni#cpp#items#data = omni#cpp#items#Get(omni#cpp#utils#TokenizeCurrentIns/;"	v
+g:omni#cpp#items#data	_vim/autoload/omni/cpp/maycomplete.vim	/^        let g:omni#cpp#items#data = omni#cpp#items#Get(omni#cpp#utils#TokenizeCurrentInstruction/;"	v
+g:omni#cpp#namespaces#CacheResolve	_vim/autoload/omni/cpp/complete.vim	/^        let g:omni#cpp#namespaces#CacheResolve = {}$/;"	v
+g:omni#cpp#namespaces#CacheResolve	_vim/autoload/omni/cpp/namespaces.vim	/^        let g:omni#cpp#namespaces#CacheResolve[a:namespace] = listTagsOfNamespace$/;"	v
+g:omni#cpp#namespaces#CacheResolve	_vim/autoload/omni/cpp/namespaces.vim	/^let g:omni#cpp#namespaces#CacheResolve = {}$/;"	v
+g:omni#cpp#namespaces#CacheUsing	_vim/autoload/omni/cpp/namespaces.vim	/^        let g:omni#cpp#namespaces#CacheUsing[szFixedPath] = namespaceMap$/;"	v
+g:omni#cpp#namespaces#CacheUsing	_vim/autoload/omni/cpp/namespaces.vim	/^let g:omni#cpp#namespaces#CacheUsing = {}$/;"	v
+g:omni#cpp#utils#CACHE_TAG_INHERITS	_vim/autoload/omni/cpp/complete.vim	/^        let g:omni#cpp#utils#CACHE_TAG_INHERITS = {}$/;"	v
+g:omni#cpp#utils#CACHE_TAG_INHERITS	_vim/autoload/omni/cpp/utils.vim	/^            let g:omni#cpp#utils#CACHE_TAG_INHERITS[szTypeInfo] = result$/;"	v
+g:omni#cpp#utils#CACHE_TAG_INHERITS	_vim/autoload/omni/cpp/utils.vim	/^let g:omni#cpp#utils#CACHE_TAG_INHERITS = {}$/;"	v
+g:omni#cpp#utils#szFilterGlobalScope	_vim/autoload/omni/cpp/utils.vim	/^let g:omni#cpp#utils#szFilterGlobalScope .= "&& (!has_key(v:val, 'enum') || (has_key(v:val, 'enu/;"	v
+g:omni#cpp#utils#szFilterGlobalScope	_vim/autoload/omni/cpp/utils.vim	/^let g:omni#cpp#utils#szFilterGlobalScope = "(!has_key(v:val, 'class') && !has_key(v:val, 'struct/;"	v
+g:pydiction_location	_vimrc	/^let g:pydiction_location = '~\/.vim\/after\/complete-dict'$/;"	v
+g:pydiction_menu_height	_vimrc	/^let g:pydiction_menu_height = 20$/;"	v
+g:re	_vim/plugin/code_complete.vim	/^    let g:re = '>`'    "region stop$/;"	v
+g:rs	_vim/plugin/code_complete.vim	/^    let g:rs = '`<'    "region start$/;"	v
+g:template	_vim/plugin/code_complete.vim	/^let g:template = {}$/;"	v
+g:template	_vim/plugin/code_complete.vim	/^let g:template['_'] = {}$/;"	v
+g:template	_vim/plugin/code_complete.vim	/^let g:template['_']['xt'] = "\\<c-r>=strftime(\\"%Y-%m-%d %H:%M:%S\\")\\<cr>"$/;"	v
+g:template	_vim/plugin/code_complete.vim	/^let g:template['c'] = {}$/;"	v
+g:template	_vim/plugin/code_complete.vim	/^let g:template['c']['cc'] = "\/*  *\/\\<left>\\<left>\\<left>"$/;"	v
+g:template	_vim/plugin/code_complete.vim	/^let g:template['c']['cd'] = "\/**<  *\/\\<left>\\<left>\\<left>"$/;"	v
+g:template	_vim/plugin/code_complete.vim	/^let g:template['c']['de'] = "#define     "$/;"	v
+g:template	_vim/plugin/code_complete.vim	/^let g:template['c']['ff'] = "#ifndef  \\<c-r>=GetFileName()\\<cr>\\<CR>#define  \\<c-r>=GetFileN/;"	v
+g:template	_vim/plugin/code_complete.vim	/^let g:template['c']['for'] = "for( ".g:rs."...".g:re." ; ".g:rs."...".g:re." ; ".g:rs."...".g:re/;"	v
+g:template	_vim/plugin/code_complete.vim	/^let g:template['c']['if'] = "if( ".g:rs."...".g:re." )\\<cr>{\\<cr>".g:rs."...".g:re."\\<cr>}"$/;"	v
+g:template	_vim/plugin/code_complete.vim	/^let g:template['c']['ife'] = "if( ".g:rs."...".g:re." )\\<cr>{\\<cr>".g:rs."...".g:re."\\<cr>} e/;"	v
+g:template	_vim/plugin/code_complete.vim	/^let g:template['c']['in'] = "#include    \\"\\"\\<left>"$/;"	v
+g:template	_vim/plugin/code_complete.vim	/^let g:template['c']['is'] = "#include  <>\\<left>"$/;"	v
+g:template	_vim/plugin/code_complete.vim	/^let g:template['c']['main'] = "int main(int argc, char \\*argv\\[\\])\\<cr>{\\<cr>".g:rs."...".g/;"	v
+g:template	_vim/plugin/code_complete.vim	/^let g:template['c']['switch'] = "switch ( ".g:rs."...".g:re." )\\<cr>{\\<cr>case ".g:rs."...".g:/;"	v
+g:template	_vim/plugin/code_complete.vim	/^let g:template['c']['while'] = "while( ".g:rs."...".g:re." )\\<cr>{\\<cr>".g:rs."...".g:re."\\<c/;"	v
+g:template	_vim/plugin/code_complete.vim	/^let g:template['cpp'] = g:template['c']$/;"	v
+g:user_defined_snippets	_vim/plugin/code_complete.vim	/^    let g:user_defined_snippets = "$VIMRUNTIME\/plugin\/my_snippets.vim"$/;"	v
+loaded_taglist	_vim/plugin/taglist.vim	/^            let loaded_taglist = 'no'$/;"	v
+loaded_taglist	_vim/plugin/taglist.vim	/^        let loaded_taglist = 'no'$/;"	v
+loaded_taglist	_vim/plugin/taglist.vim	/^    let loaded_taglist = 'fast_load_done'$/;"	v
+loaded_taglist	_vim/plugin/taglist.vim	/^let loaded_taglist = 'available'$/;"	v
+main	_vim/c-support/codesnippets/main.c	/^int main(int argc, char *argv[])$/;"	f	typeref:typename:int	signature:(int argc,char * argv[])
+main	_vim/c-support/codesnippets/main.cc	/^main ( int argc, char *argv[] )$/;"	f	typeref:typename:int	signature:(int argc,char * argv[])
+make-prerequisite-c	_vim/c-support/codesnippets/Makefile	/^define	make-prerequisite-c$/;"	m
+make-prerequisite-cplusplus	_vim/c-support/codesnippets/Makefile	/^define	make-prerequisite-cplusplus$/;"	m
+maplocalleader	_vim/ftplugin/c.vim	/^  let maplocalleader  = g:C_MapLeader$/;"	v
+md	_vimrc	/^nmap md :!~\/.vim\/markdown.pl % > %.html <CR><CR>$/;"	m
+o	_vim/plugin/taglist.vim	/^    inoremap <buffer> <silent> o$/;"	m
+o	_vim/plugin/taglist.vim	/^    nnoremap <buffer> <silent> o$/;"	m
+omni#common#debug#End	_vim/autoload/omni/common/debug.vim	/^function! omni#common#debug#End()$/;"	f
+omni#common#debug#Start	_vim/autoload/omni/common/debug.vim	/^function! omni#common#debug#Start()$/;"	f
+omni#common#debug#Trace	_vim/autoload/omni/common/debug.vim	/^function! omni#common#debug#Trace(szFuncName, ...)$/;"	f
+omni#common#utils#CompareNumber	_vim/autoload/omni/common/utils.vim	/^function! omni#common#utils#CompareNumber(i1, i2)$/;"	f
+omni#common#utils#GetWordUnderCursor	_vim/autoload/omni/common/utils.vim	/^function! omni#common#utils#GetWordUnderCursor()$/;"	f
+omni#common#utils#TagList	_vim/autoload/omni/common/utils.vim	/^function! omni#common#utils#TagList(szTagQuery)$/;"	f
+omni#common#utils#TagListNoThrow	_vim/autoload/omni/common/utils.vim	/^function! omni#common#utils#TagListNoThrow(szTagQuery)$/;"	f
+omni#cpp#complete#Init	_vim/autoload/omni/cpp/complete.vim	/^function! omni#cpp#complete#Init()$/;"	f
+omni#cpp#complete#Main	_vim/autoload/omni/cpp/complete.vim	/^function! omni#cpp#complete#Main(findstart, base)$/;"	f
+omni#cpp#includes#Display	_vim/autoload/omni/cpp/includes.vim	/^function! omni#cpp#includes#Display()$/;"	f
+omni#cpp#includes#GetList	_vim/autoload/omni/cpp/includes.vim	/^function! omni#cpp#includes#GetList(...)$/;"	f
+omni#cpp#items#Get	_vim/autoload/omni/cpp/items.vim	/^function! omni#cpp#items#Get(tokens, ...)$/;"	f
+omni#cpp#items#ResolveItemsTypeInfo	_vim/autoload/omni/cpp/items.vim	/^function! omni#cpp#items#ResolveItemsTypeInfo(contextStack, items)$/;"	f
+omni#cpp#maycomplete#Arrow	_vim/autoload/omni/cpp/maycomplete.vim	/^function! omni#cpp#maycomplete#Arrow()$/;"	f
+omni#cpp#maycomplete#Complete	_vim/autoload/omni/cpp/maycomplete.vim	/^function! omni#cpp#maycomplete#Complete()$/;"	f
+omni#cpp#maycomplete#Dot	_vim/autoload/omni/cpp/maycomplete.vim	/^function! omni#cpp#maycomplete#Dot()$/;"	f
+omni#cpp#maycomplete#Scope	_vim/autoload/omni/cpp/maycomplete.vim	/^function! omni#cpp#maycomplete#Scope()$/;"	f
+omni#cpp#namespaces#GetContexts	_vim/autoload/omni/cpp/namespaces.vim	/^function! omni#cpp#namespaces#GetContexts()$/;"	f
+omni#cpp#namespaces#GetListFromCurrentBuffer	_vim/autoload/omni/cpp/namespaces.vim	/^function! omni#cpp#namespaces#GetListFromCurrentBuffer(...)$/;"	f
+omni#cpp#namespaces#GetMapFromBuffer	_vim/autoload/omni/cpp/namespaces.vim	/^function! omni#cpp#namespaces#GetMapFromBuffer(szFilePath, ...)$/;"	f
+omni#cpp#namespaces#GetMapFromCurrentBuffer	_vim/autoload/omni/cpp/namespaces.vim	/^function! omni#cpp#namespaces#GetMapFromCurrentBuffer()$/;"	f
+omni#cpp#namespaces#GetUsingNamespaces	_vim/autoload/omni/cpp/namespaces.vim	/^function! omni#cpp#namespaces#GetUsingNamespaces()$/;"	f
+omni#cpp#namespaces#ResolveAlias	_vim/autoload/omni/cpp/namespaces.vim	/^function! omni#cpp#namespaces#ResolveAlias(mapNamespaceAlias, szNamespace)$/;"	f
+omni#cpp#namespaces#ResolveAll	_vim/autoload/omni/cpp/namespaces.vim	/^function! omni#cpp#namespaces#ResolveAll(namespacesUsed)$/;"	f
+omni#cpp#settings#Init	_vim/autoload/omni/cpp/settings.vim	/^function! omni#cpp#settings#Init()$/;"	f
+omni#cpp#tokenizer#Tokenize	_vim/autoload/omni/cpp/tokenizer.vim	/^function! omni#cpp#tokenizer#Tokenize(szCode)$/;"	f
+omni#cpp#utils#BuildParenthesisGroups	_vim/autoload/omni/cpp/utils.vim	/^function! omni#cpp#utils#BuildParenthesisGroups(tokens)$/;"	f
+omni#cpp#utils#CreateTypeInfo	_vim/autoload/omni/cpp/utils.vim	/^function! omni#cpp#utils#CreateTypeInfo(param)$/;"	f
+omni#cpp#utils#ExtractCmdFromTagItem	_vim/autoload/omni/cpp/utils.vim	/^function! omni#cpp#utils#ExtractCmdFromTagItem(tagItem)$/;"	f
+omni#cpp#utils#ExtractScope	_vim/autoload/omni/cpp/utils.vim	/^function! omni#cpp#utils#ExtractScope(tagItem)$/;"	f
+omni#cpp#utils#ExtractTypeInfoFromTag	_vim/autoload/omni/cpp/utils.vim	/^function! omni#cpp#utils#ExtractTypeInfoFromTag(tagItem)$/;"	f
+omni#cpp#utils#ExtractTypeInfoFromTokens	_vim/autoload/omni/cpp/utils.vim	/^function! omni#cpp#utils#ExtractTypeInfoFromTokens(tokens)$/;"	f
+omni#cpp#utils#GetCastType	_vim/autoload/omni/cpp/utils.vim	/^function! omni#cpp#utils#GetCastType(tokens)$/;"	f
+omni#cpp#utils#GetClassInheritanceList	_vim/autoload/omni/cpp/utils.vim	/^function! omni#cpp#utils#GetClassInheritanceList(namespaces, typeInfo)$/;"	f
+omni#cpp#utils#GetCode	_vim/autoload/omni/cpp/utils.vim	/^function! omni#cpp#utils#GetCode(posStart, posEnd)$/;"	f
+omni#cpp#utils#GetCodeFromLine	_vim/autoload/omni/cpp/utils.vim	/^function! omni#cpp#utils#GetCodeFromLine(szSingleLine)$/;"	f
+omni#cpp#utils#GetPreviewWindowStringFromTagItem	_vim/autoload/omni/cpp/utils.vim	/^function! omni#cpp#utils#GetPreviewWindowStringFromTagItem(tagItem)$/;"	f
+omni#cpp#utils#GetResolvedTagItem	_vim/autoload/omni/cpp/utils.vim	/^function! omni#cpp#utils#GetResolvedTagItem(namespaces, typeInfo)$/;"	f
+omni#cpp#utils#GetResolvedTags	_vim/autoload/omni/cpp/utils.vim	/^function! omni#cpp#utils#GetResolvedTags(namespaces, typeInfo)$/;"	f
+omni#cpp#utils#GetTypeInfoString	_vim/autoload/omni/cpp/utils.vim	/^function! omni#cpp#utils#GetTypeInfoString(typeInfo)$/;"	f
+omni#cpp#utils#IsCursorInCommentOrString	_vim/autoload/omni/cpp/utils.vim	/^function! omni#cpp#utils#IsCursorInCommentOrString()$/;"	f
+omni#cpp#utils#IsTypeInfoValid	_vim/autoload/omni/cpp/utils.vim	/^function! omni#cpp#utils#IsTypeInfoValid(typeInfo)$/;"	f
+omni#cpp#utils#ResolveFilePath	_vim/autoload/omni/cpp/utils.vim	/^function! omni#cpp#utils#ResolveFilePath(szFile)$/;"	f
+omni#cpp#utils#SimplifyParenthesis	_vim/autoload/omni/cpp/utils.vim	/^function! omni#cpp#utils#SimplifyParenthesis(tokens)$/;"	f
+omni#cpp#utils#SimplifyScope	_vim/autoload/omni/cpp/utils.vim	/^function! omni#cpp#utils#SimplifyScope(szScope)$/;"	f
+omni#cpp#utils#TokenizeCurrentInstruction	_vim/autoload/omni/cpp/utils.vim	/^function! omni#cpp#utils#TokenizeCurrentInstruction(...)$/;"	f
+omni#cpp#utils#TokenizeCurrentInstructionUntilWord	_vim/autoload/omni/cpp/utils.vim	/^function! omni#cpp#utils#TokenizeCurrentInstructionUntilWord()$/;"	f
+omni#cpp#utils#expIgnoreComments	_vim/autoload/omni/cpp/utils.vim	/^let omni#cpp#utils#expIgnoreComments = 'getline(".") =~ g:omni#cpp#utils#reIgnoreComment'$/;"	v
+omni#cpp#utils#reIgnoreComment	_vim/autoload/omni/cpp/utils.vim	/^let omni#cpp#utils#reIgnoreComment = escape('\\\/\\\/\\|\\\/\\*\\|\\*\\\/', '*\/\\')$/;"	v
+omni#cpp#utils#szEscapedCharacters	_vim/autoload/omni/cpp/utils.vim	/^let omni#cpp#utils#szEscapedCharacters = ' %#'$/;"	v
+p	_vim/plugin/taglist.vim	/^    inoremap <buffer> <silent> p$/;"	m
+p	_vim/plugin/taglist.vim	/^    nnoremap <buffer> <silent> p$/;"	m
+q	_vim/plugin/taglist.vim	/^    inoremap <buffer> <silent> q    <C-o>:close<CR>$/;"	m
+q	_vim/plugin/taglist.vim	/^    nnoremap <buffer> <silent> q :close<CR>$/;"	m
+qmake	_vim/c-support/rc/customization.ctags	/^--langdef=qmake$/;"	l
+s	_vim/plugin/taglist.vim	/^    inoremap <buffer> <silent> s$/;"	m
+s	_vim/plugin/taglist.vim	/^    nnoremap <buffer> <silent> s$/;"	m
+s:Attribute	_vim/plugin/c.vim	/^let s:Attribute                = { 'below':'', 'above':'', 'start':'', 'append':'', 'insert':'' /;"	v
+s:BuildContextStack	_vim/autoload/omni/cpp/namespaces.vim	/^function! s:BuildContextStack(namespaces, szCurrentScope)$/;"	f
+s:CACHE_DEBUG_TRACE	_vim/autoload/omni/common/debug.vim	/^let s:CACHE_DEBUG_TRACE = []$/;"	v
+s:CACHE_OVERLOADED_FUNCTIONS	_vim/autoload/omni/cpp/complete.vim	/^let s:CACHE_OVERLOADED_FUNCTIONS = {}$/;"	v
+s:CACHE_TAG_ENV	_vim/autoload/omni/cpp/complete.vim	/^let s:CACHE_TAG_ENV = ''$/;"	v
+s:CACHE_TAG_FILES	_vim/autoload/omni/cpp/complete.vim	/^let s:CACHE_TAG_FILES = {}$/;"	v
+s:CACHE_TAG_POPUP_ITEMS	_vim/autoload/omni/cpp/complete.vim	/^let s:CACHE_TAG_POPUP_ITEMS = {}$/;"	v
+s:C_Attribute	_vim/plugin/c.vim	/^let s:C_Attribute              = {}$/;"	v
+s:C_C99Libs	_vim/plugin/c.vim	/^let s:C_C99Libs       = [$/;"	v
+s:C_CComment	_vim/plugin/c.vim	/^let s:C_CComment         = '\\\/\\*.\\{-}\\*\\\/\\s*'		" C comment with trailing whitespaces$/;"	v
+s:C_CCompiler	_vim/plugin/c.vim	/^	let s:C_CCompiler           = 'gcc'      " the C   compiler$/;"	v
+s:C_CCompiler	_vim/plugin/c.vim	/^	let s:C_CCompiler           = 'gcc.exe'  " the C   compiler$/;"	v
+s:C_CExtension	_vim/plugin/c.vim	/^let s:C_CExtension     				= 'c'                    " C file extension; everything else is C++$/;"	v
+s:C_CFlags	_vim/plugin/c.vim	/^let s:C_CFlags         				= '-Wall -g -O0 -c'      " compiler flags: compile, don't optimize$/;"	v
+s:C_CodeCheckExeName	_vim/plugin/c.vim	/^let s:C_CodeCheckExeName      = 'check'$/;"	v
+s:C_CodeCheckIsExecutable	_vim/plugin/c.vim	/^	let s:C_CodeCheckIsExecutable	= 1$/;"	v
+s:C_CodeCheckIsExecutable	_vim/plugin/c.vim	/^let s:C_CodeCheckIsExecutable	= 0$/;"	v
+s:C_CodeCheckOptions	_vim/plugin/c.vim	/^let s:C_CodeCheckOptions      = '-K13'$/;"	v
+s:C_CodeSnippets	_vim/plugin/c.vim	/^	let s:C_CodeSnippets   = $HOME.'\/.vim\/c-support\/codesnippets\/'$/;"	v
+s:C_CodeSnippets	_vim/plugin/c.vim	/^  let s:C_CodeSnippets   = s:plugin_dir.'c-support\/codesnippets\/'$/;"	v
+s:C_CplusCompiler	_vim/plugin/c.vim	/^	let s:C_CplusCompiler       = 'g++'      " the C++ compiler$/;"	v
+s:C_CplusCompiler	_vim/plugin/c.vim	/^	let s:C_CplusCompiler       = 'g++.exe'  " the C++ compiler$/;"	v
+s:C_CppComment	_vim/plugin/c.vim	/^let s:C_CppComment       = '\\\/\\\/.*$'						" C++ comment$/;"	v
+s:C_Display	_vim/plugin/c.vim	/^	let s:C_Display	= system("echo -n $DISPLAY")$/;"	v
+s:C_Display	_vim/plugin/c.vim	/^	let s:C_Display        = ''$/;"	v
+s:C_DocBufferName	_vim/plugin/c.vim	/^let s:C_DocBufferName       = "C_HELP"$/;"	v
+s:C_DocHelpBufferNumber	_vim/plugin/c.vim	/^let s:C_DocHelpBufferNumber = -1$/;"	v
+s:C_ExeExtension	_vim/plugin/c.vim	/^	let s:C_ExeExtension        = ''         " file extension for executables (leading point requir/;"	v
+s:C_ExeExtension	_vim/plugin/c.vim	/^	let s:C_ExeExtension        = '.exe'     " file extension for executables (leading point requir/;"	v
+s:C_ExpansionCounter	_vim/plugin/c.vim	/^let s:C_ExpansionCounter       = {}$/;"	v
+s:C_ExpansionLimit	_vim/plugin/c.vim	/^let s:C_ExpansionLimit         = 10$/;"	v
+s:C_ExpansionRegex	_vim/plugin/c.vim	/^let s:C_ExpansionRegex				 = '|?'.s:C_MacroNameRegex.'\\(:\\a\\)\\?|'$/;"	v
+s:C_FileVisited	_vim/plugin/c.vim	/^let s:C_FileVisited            = []$/;"	v
+s:C_ForTypes	_vim/plugin/c.vim	/^let s:C_ForTypes     = [$/;"	v
+s:C_FormatDate	_vim/plugin/c.vim	/^let s:C_FormatDate						= '%x'$/;"	v
+s:C_FormatTime	_vim/plugin/c.vim	/^let s:C_FormatTime						= '%X'$/;"	v
+s:C_FormatYear	_vim/plugin/c.vim	/^let s:C_FormatYear						= '%Y'$/;"	v
+s:C_GlobalTemplateDir	_vim/plugin/c.vim	/^let s:C_GlobalTemplateDir     = fnamemodify( s:C_GlobalTemplateFile, ":p:h" ).'\/'$/;"	v
+s:C_GlobalTemplateFile	_vim/plugin/c.vim	/^let s:C_GlobalTemplateFile    = s:plugin_dir.'c-support\/templates\/Templates'$/;"	v
+s:C_HlMessage	_vim/plugin/c.vim	/^let s:C_HlMessage    = ""$/;"	v
+s:C_If0_Counter	_vim/plugin/c.vim	/^let s:C_If0_Counter   = 0$/;"	v
+s:C_If0_Txt	_vim/plugin/c.vim	/^let s:C_If0_Txt		 		= "If0Label_"$/;"	v
+s:C_IndentErrorLog	_vim/plugin/c.vim	/^	let s:C_IndentErrorLog = $HOME.'\/.indent.errorlog'$/;"	v
+s:C_IndentErrorLog	_vim/plugin/c.vim	/^  let s:C_IndentErrorLog = $HOME.'.indent.errorlog'$/;"	v
+s:C_LFlags	_vim/plugin/c.vim	/^let s:C_LFlags         				= '-Wall -g -O0'         " compiler flags: link   , don't optimize$/;"	v
+s:C_Libs	_vim/plugin/c.vim	/^let s:C_Libs           				= '-lm'                  " libraries to use$/;"	v
+s:C_LineEndCommColDefault	_vim/plugin/c.vim	/^let s:C_LineEndCommColDefault = 49$/;"	v
+s:C_LoadMenus	_vim/plugin/c.vim	/^let s:C_LoadMenus      				= 'yes'$/;"	v
+s:C_LocalTemplateDir	_vim/plugin/c.vim	/^let s:C_LocalTemplateDir      = fnamemodify( s:C_LocalTemplateFile, ":p:h" ).'\/'$/;"	v
+s:C_LocalTemplateFile	_vim/plugin/c.vim	/^let s:C_LocalTemplateFile     = $HOME.'\/.vim\/c-support\/templates\/Templates'$/;"	v
+s:C_Macro	_vim/plugin/c.vim	/^let s:C_Macro                  = {'|AUTHOR|'         : 'first name surname',$/;"	v
+s:C_MacroCommentRegex	_vim/plugin/c.vim	/^let s:C_MacroCommentRegex			 = '^\\$'$/;"	v
+s:C_MacroFlag	_vim/plugin/c.vim	/^let	s:C_MacroFlag								= {	':l' : 'lowercase'			,$/;"	v
+s:C_MacroLineRegex	_vim/plugin/c.vim	/^let s:C_MacroLineRegex				 = '^\\s*|'.s:C_MacroNameRegex.'|\\s*=\\s*\\(.*\\)'$/;"	v
+s:C_MacroNameRegex	_vim/plugin/c.vim	/^let s:C_MacroNameRegex         = '\\([a-zA-Z][a-zA-Z0-9_]*\\)'$/;"	v
+s:C_MakeCmdLineArgs	_vim/plugin/c.vim	/^let s:C_MakeCmdLineArgs   = ""     " command line arguments for Run-make; initially empty$/;"	v
+s:C_Man	_vim/plugin/c.vim	/^	let s:C_Man                 = 'man'      " the manual program$/;"	v
+s:C_Man	_vim/plugin/c.vim	/^	let s:C_Man                 = 'man.exe'  " the manual program$/;"	v
+s:C_MenuHeader	_vim/plugin/c.vim	/^let s:C_MenuHeader     				= 'yes'$/;"	v
+s:C_MenuVisible	_vim/plugin/c.vim	/^let s:C_MenuVisible = 0								" state variable controlling the C-menus$/;"	v
+s:C_NonExpansionRegex	_vim/plugin/c.vim	/^let s:C_NonExpansionRegex			 = '|'.s:C_MacroNameRegex.'\\(:\\a\\)\\?|'$/;"	v
+s:C_ObjExtension	_vim/plugin/c.vim	/^	let s:C_ObjExtension        = '.o'       " file extension for objects (leading point required)$/;"	v
+s:C_ObjExtension	_vim/plugin/c.vim	/^	let s:C_ObjExtension        = '.obj'     " file extension for objects (leading point required)$/;"	v
+s:C_OutputBufferName	_vim/plugin/c.vim	/^let s:C_OutputBufferName   = "C-Output"$/;"	v
+s:C_OutputBufferNumber	_vim/plugin/c.vim	/^let s:C_OutputBufferNumber = -1$/;"	v
+s:C_OutputGvim	_vim/plugin/c.vim	/^let s:C_OutputGvim            = 'vim'$/;"	v
+s:C_Printheader	_vim/plugin/c.vim	/^let s:C_Printheader           = "%<%f%h%m%<  %=%{strftime('%x %X')}     Page %N"$/;"	v
+s:C_Printheader	_vim/plugin/c.vim	/^let s:C_Printheader  = escape( s:C_Printheader, ' %' )$/;"	v
+s:C_Prototype	_vim/plugin/c.vim	/^let s:C_Prototype        = []$/;"	v
+s:C_PrototypeCounter	_vim/plugin/c.vim	/^let s:C_PrototypeCounter = 0$/;"	v
+s:C_PrototypeShow	_vim/plugin/c.vim	/^let s:C_PrototypeShow    = []$/;"	v
+s:C_Root	_vim/plugin/c.vim	/^let s:C_Root  	       				= '&C\\\/C\\+\\+.'           " the name of the root menu of this plugi/;"	v
+s:C_SourceCodeExtensions	_vim/plugin/c.vim	/^let s:C_SourceCodeExtensions  = 'c cc cp cxx cpp CPP c++ C i ii'$/;"	v
+s:C_SourceCodeExtensionsList	_vim/plugin/c.vim	/^let s:C_SourceCodeExtensionsList	= split( s:C_SourceCodeExtensions, '\\s\\+' )$/;"	v
+s:C_SplintIsExecutable	_vim/plugin/c.vim	/^	let s:C_SplintIsExecutable	= 1$/;"	v
+s:C_SplintIsExecutable	_vim/plugin/c.vim	/^let s:C_SplintIsExecutable	= 0$/;"	v
+s:C_StandardLibs	_vim/plugin/c.vim	/^let s:C_StandardLibs       = [$/;"	v
+s:C_StartMultilineComment	_vim/plugin/c.vim	/^let s:C_StartMultilineComment	= '^\\s*\\\/\\*[\\*! ]\\='$/;"	v
+s:C_TJT	_vim/plugin/c.vim	/^let s:C_TJT										 = '[ 0-9a-zA-Z_]*'$/;"	v
+s:C_Template	_vim/plugin/c.vim	/^let s:C_Template               = {}$/;"	v
+s:C_TemplateEndif	_vim/plugin/c.vim	/^let s:C_TemplateEndif					 = '^==\\s*ENDIF\\s*=='$/;"	v
+s:C_TemplateIf	_vim/plugin/c.vim	/^let s:C_TemplateIf						 = '^==\\s*IF\\s\\+|STYLE|\\s\\+IS\\s\\+'.s:C_MacroNameRegex.'\\s*=='$/;"	v
+s:C_TemplateJumpTarget1	_vim/plugin/c.vim	/^let s:C_TemplateJumpTarget1    = '<+'.s:C_TJT.'+>\\|{+'.s:C_TJT.'+}'$/;"	v
+s:C_TemplateJumpTarget2	_vim/plugin/c.vim	/^let s:C_TemplateJumpTarget2    = '<-'.s:C_TJT.'->\\|{-'.s:C_TJT.'-}'$/;"	v
+s:C_TemplateLineRegex	_vim/plugin/c.vim	/^let s:C_TemplateLineRegex			 = '^==\\s*\\([a-zA-Z][0-9a-zA-Z'.s:C_TemplateNameDelimiter$/;"	v
+s:C_TemplateLineRegex	_vim/plugin/c.vim	/^let s:C_TemplateLineRegex			.= ']\\+\\)\\s*==\\s*\\([a-z]\\+\\s*==\\)\\?'$/;"	v
+s:C_TemplateNameDelimiter	_vim/plugin/c.vim	/^let s:C_TemplateNameDelimiter  = '-+_,\\. '$/;"	v
+s:C_TemplateOverwrittenMsg	_vim/plugin/c.vim	/^let s:C_TemplateOverwrittenMsg= 'yes'$/;"	v
+s:C_TypeOfH	_vim/plugin/c.vim	/^let s:C_TypeOfH               = 'cpp'$/;"	v
+s:C_Wrapper	_vim/plugin/c.vim	/^let s:C_Wrapper               = s:plugin_dir.'c-support\/scripts\/wrapper.sh'$/;"	v
+s:C_XtermDefaults	_vim/plugin/c.vim	/^	let s:C_XtermDefaults	= s:C_XtermDefaults." -geometry 80x24"$/;"	v
+s:C_XtermDefaults	_vim/plugin/c.vim	/^let s:C_XtermDefaults         = '-fa courier -fs 12 -geometry 80x24'$/;"	v
+s:CanUseOmnicompletion	_vim/autoload/omni/cpp/maycomplete.vim	/^function! s:CanUseOmnicompletion()$/;"	f
+s:Comments	_vim/plugin/c.vim	/^let s:Comments     = s:C_Root.'&Comments'$/;"	v
+s:Cpp	_vim/plugin/c.vim	/^let s:Cpp          = s:C_Root.'C&++'$/;"	v
+s:Cpp_IosFlagBits	_vim/plugin/c.vim	/^let s:Cpp_IosFlagBits       = [$/;"	v
+s:Cpp_StandardLibs1	_vim/plugin/c.vim	/^let s:Cpp_StandardLibs1       = [$/;"	v
+s:Cpp_StandardLibs2	_vim/plugin/c.vim	/^let s:Cpp_StandardLibs2       = [$/;"	v
+s:Cpp_StandardLibs3	_vim/plugin/c.vim	/^let s:Cpp_StandardLibs3       = [$/;"	v
+s:DisplayIncludeTree	_vim/autoload/omni/cpp/includes.vim	/^function! s:DisplayIncludeTree(szFilePath, indent, ...)$/;"	f
+s:ExtendTagItemToPopupItem	_vim/autoload/omni/cpp/complete.vim	/^function! s:ExtendTagItemToPopupItem(tagItem, szTypeName)$/;"	f
+s:ExtractScopeFromTypeInfo	_vim/autoload/omni/cpp/utils.vim	/^function! s:ExtractScopeFromTypeInfo(szTypeInfo)$/;"	f
+s:ExtractTypeInfoFromDecl	_vim/autoload/omni/cpp/items.vim	/^function! s:ExtractTypeInfoFromDecl(tokens)$/;"	f
+s:FilterClassMembers	_vim/autoload/omni/cpp/complete.vim	/^function! s:FilterClassMembers(tagPopupList, szAccessFilter)$/;"	f
+s:FilterClassScopeMembers	_vim/autoload/omni/cpp/complete.vim	/^function! s:FilterClassScopeMembers(tagPopupList, szAccessFilter)$/;"	f
+s:FilterNamespaceScopeMembers	_vim/autoload/omni/cpp/complete.vim	/^function! s:FilterNamespaceScopeMembers(tagPopupList)$/;"	f
+s:FilterOverloadedFunctions	_vim/autoload/omni/cpp/complete.vim	/^function! s:FilterOverloadedFunctions(tagPopupList)$/;"	f
+s:FilterStaticClassMembers	_vim/autoload/omni/cpp/complete.vim	/^function! s:FilterStaticClassMembers(tagPopupList, szAccessFilter)$/;"	f
+s:FindStartPositionOfCompletion	_vim/autoload/omni/cpp/complete.vim	/^function! s:FindStartPositionOfCompletion()$/;"	f
+s:GetAccessFilter	_vim/autoload/omni/cpp/complete.vim	/^function! s:GetAccessFilter(szFilter, szAccessFilter)$/;"	f
+s:GetAllUsingNamespaceMapFromCurrentBuffer	_vim/autoload/omni/cpp/namespaces.vim	/^function! s:GetAllUsingNamespaceMapFromCurrentBuffer(...)$/;"	f
+s:GetAllUsingNamespaceMapFromFile	_vim/autoload/omni/cpp/namespaces.vim	/^function! s:GetAllUsingNamespaceMapFromFile(szFilePath, ...)$/;"	f
+s:GetClassScopeAtCursor	_vim/autoload/omni/cpp/namespaces.vim	/^function! s:GetClassScopeAtCursor()$/;"	f
+s:GetIncludeListFromCurrentBuffer	_vim/autoload/omni/cpp/includes.vim	/^function! s:GetIncludeListFromCurrentBuffer()$/;"	f
+s:GetIncludeListFromFile	_vim/autoload/omni/cpp/includes.vim	/^function! s:GetIncludeListFromFile(szFilePath, bUpdate) $/;"	f
+s:GetNamespaceAliasListFromLine	_vim/autoload/omni/cpp/namespaces.vim	/^function! s:GetNamespaceAliasListFromLine(szLine)$/;"	f
+s:GetNamespaceAliasMap	_vim/autoload/omni/cpp/namespaces.vim	/^function! s:GetNamespaceAliasMap()$/;"	f
+s:GetNamespaceListFromLine	_vim/autoload/omni/cpp/namespaces.vim	/^function! s:GetNamespaceListFromLine(szLine)$/;"	f
+s:GetStopPositionForLocalSearch	_vim/autoload/omni/cpp/namespaces.vim	/^function! s:GetStopPositionForLocalSearch()$/;"	f
+s:GetSymbol	_vim/autoload/omni/cpp/items.vim	/^function! s:GetSymbol(tokens)$/;"	f
+s:GetTagOfSameScope	_vim/autoload/omni/cpp/utils.vim	/^function! s:GetTagOfSameScope(listTags, szScopeToMatch)$/;"	f
+s:GetTypeInfoOfReturnedType	_vim/autoload/omni/cpp/items.vim	/^function! s:GetTypeInfoOfReturnedType(contextStack, szFunctionName)$/;"	f
+s:GetTypeInfoOfVariable	_vim/autoload/omni/cpp/items.vim	/^function! s:GetTypeInfoOfVariable(contextStack, szVariable, bSearchDecl)$/;"	f
+s:GetUsingNamespaceListFromMap	_vim/autoload/omni/cpp/namespaces.vim	/^function! s:GetUsingNamespaceListFromMap(namespaceMap, ...)$/;"	f
+s:HasATagFileOrTagEnvChanged	_vim/autoload/omni/cpp/complete.vim	/^function! s:HasATagFileOrTagEnvChanged()$/;"	f
+s:HasTagEnvChanged	_vim/autoload/omni/cpp/complete.vim	/^function! s:HasTagEnvChanged()$/;"	f
+s:Idioms	_vim/plugin/c.vim	/^let s:Idioms       = s:C_Root.'&Idioms'$/;"	v
+s:InitComplete	_vim/autoload/omni/cpp/complete.vim	/^function! s:InitComplete()$/;"	f
+s:IsCached	_vim/autoload/omni/cpp/complete.vim	/^function! s:IsCached(cache, szKey1, szKey2)$/;"	f
+s:IsTypeInfoResolved	_vim/autoload/omni/cpp/utils.vim	/^function! s:IsTypeInfoResolved(szTypeInfo)$/;"	f
+s:IsUnnamedType	_vim/autoload/omni/cpp/items.vim	/^function! s:IsUnnamedType(tagItem)$/;"	f
+s:LocalSearchDecl	_vim/autoload/omni/cpp/items.vim	/^function! s:LocalSearchDecl(name)$/;"	f
+s:MSWIN	_vim/plugin/c.vim	/^let	s:MSWIN =		has("win16") || has("win32") || has("win64") || has("win95")$/;"	v
+s:MsgInsNotAvail	_vim/plugin/c.vim	/^let s:MsgInsNotAvail	= "insertion not available for a fold" $/;"	v
+s:OmniCpp_ShowAccess	_vim/autoload/omni/cpp/complete.vim	/^let s:OmniCpp_ShowAccess = g:OmniCpp_ShowAccess$/;"	v
+s:OmniCpp_ShowPrototypeInAbbr	_vim/autoload/omni/cpp/complete.vim	/^let s:OmniCpp_ShowPrototypeInAbbr = g:OmniCpp_ShowPrototypeInAbbr$/;"	v
+s:OmniCpp_ShowScopeInAbbr	_vim/autoload/omni/cpp/complete.vim	/^let s:OmniCpp_ShowScopeInAbbr = g:OmniCpp_ShowScopeInAbbr$/;"	v
+s:Preprocessor	_vim/plugin/c.vim	/^let s:Preprocessor = s:C_Root.'&Preprocessor'$/;"	v
+s:RemoveCComments	_vim/autoload/omni/cpp/utils.vim	/^function! s:RemoveCComments(szLine)$/;"	f
+s:ResolveAliasInNamespaceList	_vim/autoload/omni/cpp/namespaces.vim	/^function! s:ResolveAliasInNamespaceList(mapNamespaceAlias, listNamespaces)$/;"	f
+s:ResolveAliasKey	_vim/autoload/omni/cpp/namespaces.vim	/^function! s:ResolveAliasKey(mapNamespaceAlias, szAlias)$/;"	f
+s:ResolveAliasKeys	_vim/autoload/omni/cpp/namespaces.vim	/^function! s:ResolveAliasKeys(mapNamespaceAlias)$/;"	f
+s:ResolveCCast	_vim/autoload/omni/cpp/items.vim	/^function! s:ResolveCCast(tokens)$/;"	f
+s:ResolveCast	_vim/autoload/omni/cpp/items.vim	/^function! s:ResolveCast(tokens, startChar, endChar)$/;"	f
+s:ResolveCppCast	_vim/autoload/omni/cpp/items.vim	/^function! s:ResolveCppCast(tokens)$/;"	f
+s:ResolveNamespace	_vim/autoload/omni/cpp/namespaces.vim	/^function! s:ResolveNamespace(namespace, mapCurrentContexts)$/;"	f
+s:ResolveSymbol	_vim/autoload/omni/cpp/items.vim	/^function! s:ResolveSymbol(contextStack, szSymbol, szTagFilter)$/;"	f
+s:Run	_vim/plugin/c.vim	/^let s:Run          = s:C_Root.'&Run'$/;"	v
+s:SearchDecl	_vim/autoload/omni/cpp/items.vim	/^function! s:SearchDecl(szVariable)$/;"	f
+s:SearchGlobalMembers	_vim/autoload/omni/cpp/complete.vim	/^function! s:SearchGlobalMembers(szBase)$/;"	f
+s:SearchMembers	_vim/autoload/omni/cpp/complete.vim	/^function! s:SearchMembers(resolvedTagItem, szBase)$/;"	f
+s:SearchTypeInfoOfDecl	_vim/autoload/omni/cpp/items.vim	/^function! s:SearchTypeInfoOfDecl(szVariable)$/;"	f
+s:Snippets	_vim/plugin/c.vim	/^let s:Snippets     = s:C_Root.'S&nippets'$/;"	v
+s:Statements	_vim/plugin/c.vim	/^let s:Statements   = s:C_Root.'&Statements'$/;"	v
+s:TagPopupList	_vim/autoload/omni/cpp/complete.vim	/^function! s:TagPopupList(szTypeName, szBase)$/;"	f
+s:Tlist_Add_Files	_vim/plugin/taglist.vim	/^function! s:Tlist_Add_Files(...)$/;"	f
+s:Tlist_Add_Files_Recursive	_vim/plugin/taglist.vim	/^function! s:Tlist_Add_Files_Recursive(dir, ...)$/;"	f
+s:Tlist_Buffer_Removed	_vim/plugin/taglist.vim	/^function! s:Tlist_Buffer_Removed(filename)$/;"	f
+s:Tlist_Change_Sort	_vim/plugin/taglist.vim	/^function! s:Tlist_Change_Sort(caller, action, sort_type)$/;"	f
+s:Tlist_Debug_Disable	_vim/plugin/taglist.vim	/^function! s:Tlist_Debug_Disable(...)$/;"	f
+s:Tlist_Debug_Enable	_vim/plugin/taglist.vim	/^function! s:Tlist_Debug_Enable(...)$/;"	f
+s:Tlist_Debug_Show	_vim/plugin/taglist.vim	/^function! s:Tlist_Debug_Show()$/;"	f
+s:Tlist_Detect_Filetype	_vim/plugin/taglist.vim	/^function! s:Tlist_Detect_Filetype(fname)$/;"	f
+s:Tlist_Discard_FileInfo	_vim/plugin/taglist.vim	/^function! s:Tlist_Discard_FileInfo(fidx)$/;"	f
+s:Tlist_Discard_TagInfo	_vim/plugin/taglist.vim	/^function! s:Tlist_Discard_TagInfo(fidx)$/;"	f
+s:Tlist_Exe_Cmd_No_Acmds	_vim/plugin/taglist.vim	/^function! s:Tlist_Exe_Cmd_No_Acmds(cmd)$/;"	f
+s:Tlist_Extract_Tag_Scope	_vim/plugin/taglist.vim	/^function! s:Tlist_Extract_Tag_Scope(tag_line)$/;"	f
+s:Tlist_Extract_Tagtype	_vim/plugin/taglist.vim	/^function! s:Tlist_Extract_Tagtype(tag_line)$/;"	f
+s:Tlist_FileType_Init	_vim/plugin/taglist.vim	/^function! s:Tlist_FileType_Init(ftype)$/;"	f
+s:Tlist_Find_Nearest_Tag_Idx	_vim/plugin/taglist.vim	/^function! s:Tlist_Find_Nearest_Tag_Idx(fidx, linenum)$/;"	f
+s:Tlist_Get_Buffer_Filetype	_vim/plugin/taglist.vim	/^function! s:Tlist_Get_Buffer_Filetype(bnum)$/;"	f
+s:Tlist_Get_File_Index	_vim/plugin/taglist.vim	/^function! s:Tlist_Get_File_Index(fname)$/;"	f
+s:Tlist_Get_Tag_Linenum	_vim/plugin/taglist.vim	/^function! s:Tlist_Get_Tag_Linenum(fidx, tidx)$/;"	f
+s:Tlist_Get_Tag_Prototype	_vim/plugin/taglist.vim	/^function! s:Tlist_Get_Tag_Prototype(fidx, tidx)$/;"	f
+s:Tlist_Get_Tag_SearchPat	_vim/plugin/taglist.vim	/^function! s:Tlist_Get_Tag_SearchPat(fidx, tidx)$/;"	f
+s:Tlist_Get_Tag_Type_By_Tag	_vim/plugin/taglist.vim	/^function! s:Tlist_Get_Tag_Type_By_Tag(fidx, tidx)$/;"	f
+s:Tlist_Init_File	_vim/plugin/taglist.vim	/^function! s:Tlist_Init_File(filename, ftype)$/;"	f
+s:Tlist_Log_Msg	_vim/plugin/taglist.vim	/^function! s:Tlist_Log_Msg(msg)$/;"	f
+s:Tlist_Menu_Add_Base_Menu	_vim/plugin/taglist.vim	/^function! s:Tlist_Menu_Add_Base_Menu()$/;"	f
+s:Tlist_Menu_File_Refresh	_vim/plugin/taglist.vim	/^function! s:Tlist_Menu_File_Refresh(fidx)$/;"	f
+s:Tlist_Menu_Get_Tag_Type_Cmd	_vim/plugin/taglist.vim	/^function! s:Tlist_Menu_Get_Tag_Type_Cmd(fidx, ftype, add_ttype_name, ttype_idx)$/;"	f
+s:Tlist_Menu_Init	_vim/plugin/taglist.vim	/^function! s:Tlist_Menu_Init()$/;"	f
+s:Tlist_Menu_Jump_To_Tag	_vim/plugin/taglist.vim	/^function! s:Tlist_Menu_Jump_To_Tag(tidx)$/;"	f
+s:Tlist_Menu_Refresh	_vim/plugin/taglist.vim	/^function! s:Tlist_Menu_Refresh()$/;"	f
+s:Tlist_Menu_Remove_File	_vim/plugin/taglist.vim	/^function! s:Tlist_Menu_Remove_File()$/;"	f
+s:Tlist_Menu_Update_File	_vim/plugin/taglist.vim	/^function! s:Tlist_Menu_Update_File(clear_menu)$/;"	f
+s:Tlist_Parse_Tagline	_vim/plugin/taglist.vim	/^function! s:Tlist_Parse_Tagline(tag_line)$/;"	f
+s:Tlist_Post_Close_Cleanup	_vim/plugin/taglist.vim	/^function! s:Tlist_Post_Close_Cleanup()$/;"	f
+s:Tlist_Process_Dir	_vim/plugin/taglist.vim	/^function! s:Tlist_Process_Dir(dir_name, pat)$/;"	f
+s:Tlist_Process_File	_vim/plugin/taglist.vim	/^function! s:Tlist_Process_File(filename, ftype)$/;"	f
+s:Tlist_Process_Filelist	_vim/plugin/taglist.vim	/^function! s:Tlist_Process_Filelist(file_names)$/;"	f
+s:Tlist_Refresh	_vim/plugin/taglist.vim	/^function! s:Tlist_Refresh()$/;"	f
+s:Tlist_Refresh_Folds	_vim/plugin/taglist.vim	/^function! s:Tlist_Refresh_Folds()$/;"	f
+s:Tlist_Remove_File	_vim/plugin/taglist.vim	/^function! s:Tlist_Remove_File(file_idx, user_request)$/;"	f
+s:Tlist_Session_Load	_vim/plugin/taglist.vim	/^function! s:Tlist_Session_Load(...)$/;"	f
+s:Tlist_Session_Save	_vim/plugin/taglist.vim	/^function! s:Tlist_Session_Save(...)$/;"	f
+s:Tlist_Skip_File	_vim/plugin/taglist.vim	/^function! s:Tlist_Skip_File(filename, ftype)$/;"	f
+s:Tlist_Skip_Refresh	_vim/plugin/taglist.vim	/^let s:Tlist_Skip_Refresh = 0$/;"	v
+s:Tlist_Update_Current_File	_vim/plugin/taglist.vim	/^function! s:Tlist_Update_Current_File()$/;"	f
+s:Tlist_Update_Remove_List	_vim/plugin/taglist.vim	/^function! s:Tlist_Update_Remove_List(filename, add)$/;"	f
+s:Tlist_User_Removed_File	_vim/plugin/taglist.vim	/^function! s:Tlist_User_Removed_File(filename)$/;"	f
+s:Tlist_Vim_Session_Load	_vim/plugin/taglist.vim	/^function! s:Tlist_Vim_Session_Load()$/;"	f
+s:Tlist_Warning_Msg	_vim/plugin/taglist.vim	/^function! s:Tlist_Warning_Msg(msg)$/;"	f
+s:Tlist_Window_Check_Auto_Open	_vim/plugin/taglist.vim	/^function! s:Tlist_Window_Check_Auto_Open()$/;"	f
+s:Tlist_Window_Check_Width	_vim/plugin/taglist.vim	/^function! s:Tlist_Window_Check_Width()$/;"	f
+s:Tlist_Window_Close	_vim/plugin/taglist.vim	/^function! s:Tlist_Window_Close()$/;"	f
+s:Tlist_Window_Create	_vim/plugin/taglist.vim	/^function! s:Tlist_Window_Create()$/;"	f
+s:Tlist_Window_Display_Help	_vim/plugin/taglist.vim	/^function! s:Tlist_Window_Display_Help()$/;"	f
+s:Tlist_Window_Exit_Only_Window	_vim/plugin/taglist.vim	/^function! s:Tlist_Window_Exit_Only_Window()$/;"	f
+s:Tlist_Window_Get_File_Index_By_Linenum	_vim/plugin/taglist.vim	/^function! s:Tlist_Window_Get_File_Index_By_Linenum(lnum)$/;"	f
+s:Tlist_Window_Get_Tag_Index	_vim/plugin/taglist.vim	/^function! s:Tlist_Window_Get_Tag_Index(fidx, lnum)$/;"	f
+s:Tlist_Window_Get_Tag_Type_By_Linenum	_vim/plugin/taglist.vim	/^function! s:Tlist_Window_Get_Tag_Type_By_Linenum(fidx, lnum)$/;"	f
+s:Tlist_Window_Goto_Window	_vim/plugin/taglist.vim	/^function! s:Tlist_Window_Goto_Window()$/;"	f
+s:Tlist_Window_Highlight_Line	_vim/plugin/taglist.vim	/^function! s:Tlist_Window_Highlight_Line()$/;"	f
+s:Tlist_Window_Highlight_Tag	_vim/plugin/taglist.vim	/^function! s:Tlist_Window_Highlight_Tag(filename, cur_lnum, cntx, center)$/;"	f
+s:Tlist_Window_Init	_vim/plugin/taglist.vim	/^function! s:Tlist_Window_Init()$/;"	f
+s:Tlist_Window_Jump_To_Tag	_vim/plugin/taglist.vim	/^function! s:Tlist_Window_Jump_To_Tag(win_ctrl)$/;"	f
+s:Tlist_Window_Mark_File_Window	_vim/plugin/taglist.vim	/^function! s:Tlist_Window_Mark_File_Window()$/;"	f
+s:Tlist_Window_Move_To_File	_vim/plugin/taglist.vim	/^function! s:Tlist_Window_Move_To_File(dir)$/;"	f
+s:Tlist_Window_Open	_vim/plugin/taglist.vim	/^function! s:Tlist_Window_Open()$/;"	f
+s:Tlist_Window_Open_File	_vim/plugin/taglist.vim	/^function! s:Tlist_Window_Open_File(win_ctrl, filename, tagpat)$/;"	f
+s:Tlist_Window_Open_File_Fold	_vim/plugin/taglist.vim	/^function! s:Tlist_Window_Open_File_Fold(acmd_bufnr)$/;"	f
+s:Tlist_Window_Refresh	_vim/plugin/taglist.vim	/^function! s:Tlist_Window_Refresh()$/;"	f
+s:Tlist_Window_Refresh_File	_vim/plugin/taglist.vim	/^function! s:Tlist_Window_Refresh_File(filename, ftype)$/;"	f
+s:Tlist_Window_Remove_File_From_Display	_vim/plugin/taglist.vim	/^function! s:Tlist_Window_Remove_File_From_Display(fidx)$/;"	f
+s:Tlist_Window_Show_Info	_vim/plugin/taglist.vim	/^function! s:Tlist_Window_Show_Info()$/;"	f
+s:Tlist_Window_Toggle	_vim/plugin/taglist.vim	/^function! s:Tlist_Window_Toggle()$/;"	f
+s:Tlist_Window_Toggle_Help_Text	_vim/plugin/taglist.vim	/^function! s:Tlist_Window_Toggle_Help_Text()$/;"	f
+s:Tlist_Window_Update_File	_vim/plugin/taglist.vim	/^function! s:Tlist_Window_Update_File()$/;"	f
+s:Tlist_Window_Update_Line_Offsets	_vim/plugin/taglist.vim	/^function! s:Tlist_Window_Update_Line_Offsets(start_idx, increment, offset)$/;"	f
+s:Tlist_Window_Zoom	_vim/plugin/taglist.vim	/^function! s:Tlist_Window_Zoom()$/;"	f
+s:TokensToString	_vim/autoload/omni/cpp/items.vim	/^function! s:TokensToString(tokens)$/;"	f
+s:bMayComplete	_vim/autoload/omni/cpp/complete.vim	/^let s:bMayComplete = 0$/;"	v
+s:cpo_save	_vim/plugin/taglist.vim	/^let s:cpo_save = &cpo$/;"	v
+s:cppKeyword	_vim/autoload/omni/cpp/tokenizer.vim	/^let s:cppKeyword = ['asm', 'auto', 'bool', 'break', 'case', 'catch', 'char', 'class', 'const', '/;"	v
+s:cppOperatorPunctuator	_vim/autoload/omni/cpp/tokenizer.vim	/^let s:cppOperatorPunctuator = ['->*', '->', '--', '-=', '-', '!=', '!', '##', '#', '%:%:', '%=',/;"	v
+s:doappend	_vim/plugin/code_complete.vim	/^let s:doappend = 1$/;"	v
+s:escfilename	_vim/plugin/c.vim	/^  let s:escfilename 	= ' \\%#[]'$/;"	v
+s:escfilename	_vim/plugin/c.vim	/^  let s:escfilename      = ''$/;"	v
+s:expanded	_vim/plugin/code_complete.vim	/^let s:expanded = 0  "in case of inserting char after expand$/;"	v
+s:hasPreviewWindow	_vim/autoload/omni/cpp/complete.vim	/^let s:hasPreviewWindow = match(&completeopt, 'preview')>=0$/;"	v
+s:hasPreviewWindowOld	_vim/autoload/omni/cpp/complete.vim	/^let s:hasPreviewWindowOld = s:hasPreviewWindow$/;"	v
+s:installation	_vim/plugin/c.vim	/^		let s:installation	= 'system'$/;"	v
+s:installation	_vim/plugin/c.vim	/^	let s:installation	   = 'system'$/;"	v
+s:installation	_vim/plugin/c.vim	/^	let s:installation	= 'local'$/;"	v
+s:jumppos	_vim/plugin/code_complete.vim	/^let s:jumppos = -1$/;"	v
+s:menu_char_prefix	_vim/plugin/taglist.vim	/^let s:menu_char_prefix =$/;"	v
+s:plugin_dir	_vim/plugin/c.vim	/^		let s:plugin_dir  = $HOME.'\/.vim\/'$/;"	v
+s:plugin_dir	_vim/plugin/c.vim	/^		let s:plugin_dir  = $VIM.'\/vimfiles\/'$/;"	v
+s:plugin_dir	_vim/plugin/c.vim	/^  let s:plugin_dir       = $VIM.'\\vimfiles\\'$/;"	v
+s:popupItemResultList	_vim/autoload/omni/cpp/complete.vim	/^let s:popupItemResultList = []$/;"	v
+s:reCComment	_vim/autoload/omni/cpp/tokenizer.vim	/^let s:reCComment = '\\\/\\*\\|\\*\\\/'$/;"	v
+s:reComment	_vim/autoload/omni/cpp/tokenizer.vim	/^let s:reComment = s:reCComment.'\\|'.s:reCppComment$/;"	v
+s:reCppComment	_vim/autoload/omni/cpp/tokenizer.vim	/^let s:reCppComment = '\\\/\\\/'$/;"	v
+s:reCppKeyword	_vim/autoload/omni/cpp/tokenizer.vim	/^let s:reCppKeyword = '\\C\\<'.join(s:cppKeyword, '\\>\\|\\<').'\\>'$/;"	v
+s:reCppOperatorOrPunctuator	_vim/autoload/omni/cpp/tokenizer.vim	/^let s:reCppOperatorOrPunctuator = escape(join(s:cppOperatorPunctuator, '\\|'), '*.\/^~[]')$/;"	v
+s:reIncludeFilePart	_vim/autoload/omni/cpp/includes.vim	/^let s:reIncludeFilePart = '\\(<\\|"\\)\\(\\f\\|\\s\\)\\+\\(>\\|"\\)'$/;"	v
+s:rePreprocIncludeFile	_vim/autoload/omni/cpp/includes.vim	/^let s:rePreprocIncludeFile = s:rePreprocIncludePart . s:reIncludeFilePart$/;"	v
+s:rePreprocIncludePart	_vim/autoload/omni/cpp/includes.vim	/^let s:rePreprocIncludePart = '\\C#\\s*include\\s*'$/;"	v
+s:signature_list	_vim/plugin/code_complete.vim	/^let s:signature_list = []$/;"	v
+s:szCurrentWorkingDir	_vim/autoload/omni/cpp/complete.vim	/^let s:szCurrentWorkingDir = getcwd()$/;"	v
+s:tlist_app_name	_vim/plugin/taglist.vim	/^let s:tlist_app_name = "none"$/;"	v
+s:tlist_brief_help	_vim/plugin/taglist.vim	/^let s:tlist_brief_help = 1$/;"	v
+s:tlist_cur_file_idx	_vim/plugin/taglist.vim	/^let s:tlist_cur_file_idx = -1$/;"	v
+s:tlist_debug	_vim/plugin/taglist.vim	/^let s:tlist_debug = 0$/;"	v
+s:tlist_debug_file	_vim/plugin/taglist.vim	/^let s:tlist_debug_file = ''$/;"	v
+s:tlist_def_asm_settings	_vim/plugin/taglist.vim	/^let s:tlist_def_asm_settings = 'asm;d:define;l:label;m:macro;t:type'$/;"	v
+s:tlist_def_aspperl_settings	_vim/plugin/taglist.vim	/^let s:tlist_def_aspperl_settings = 'asp;f:function;s:sub;v:variable'$/;"	v
+s:tlist_def_aspvbs_settings	_vim/plugin/taglist.vim	/^let s:tlist_def_aspvbs_settings = 'asp;f:function;s:sub;v:variable'$/;"	v
+s:tlist_def_awk_settings	_vim/plugin/taglist.vim	/^let s:tlist_def_awk_settings = 'awk;f:function'$/;"	v
+s:tlist_def_beta_settings	_vim/plugin/taglist.vim	/^let s:tlist_def_beta_settings = 'beta;f:fragment;s:slot;v:pattern'$/;"	v
+s:tlist_def_c_settings	_vim/plugin/taglist.vim	/^let s:tlist_def_c_settings = 'c;d:macro;g:enum;s:struct;u:union;t:typedef;' .$/;"	v
+s:tlist_def_cobol_settings	_vim/plugin/taglist.vim	/^let s:tlist_def_cobol_settings = 'cobol;d:data;f:file;g:group;p:paragraph;' .$/;"	v
+s:tlist_def_cpp_settings	_vim/plugin/taglist.vim	/^let s:tlist_def_cpp_settings = 'c++;n:namespace;v:variable;d:macro;t:typedef;' .$/;"	v
+s:tlist_def_cs_settings	_vim/plugin/taglist.vim	/^let s:tlist_def_cs_settings = 'c#;d:macro;t:typedef;n:namespace;c:class;' .$/;"	v
+s:tlist_def_csh_settings	_vim/plugin/taglist.vim	/^let s:tlist_def_csh_settings = 'sh;f:function'$/;"	v
+s:tlist_def_eiffel_settings	_vim/plugin/taglist.vim	/^let s:tlist_def_eiffel_settings = 'eiffel;c:class;f:feature'$/;"	v
+s:tlist_def_erlang_settings	_vim/plugin/taglist.vim	/^let s:tlist_def_erlang_settings = 'erlang;d:macro;r:record;m:module;f:function'$/;"	v
+s:tlist_def_expect_settings	_vim/plugin/taglist.vim	/^let s:tlist_def_expect_settings = 'tcl;c:class;f:method;p:procedure'$/;"	v
+s:tlist_def_fortran_settings	_vim/plugin/taglist.vim	/^let s:tlist_def_fortran_settings = 'fortran;p:program;b:block data;' .$/;"	v
+s:tlist_def_html_settings	_vim/plugin/taglist.vim	/^let s:tlist_def_html_settings = 'html;a:anchor;f:javascript function'$/;"	v
+s:tlist_def_java_settings	_vim/plugin/taglist.vim	/^let s:tlist_def_java_settings = 'java;p:package;c:class;i:interface;' .$/;"	v
+s:tlist_def_javascript_settings	_vim/plugin/taglist.vim	/^let s:tlist_def_javascript_settings = 'javascript;f:function'$/;"	v
+s:tlist_def_lisp_settings	_vim/plugin/taglist.vim	/^let s:tlist_def_lisp_settings = 'lisp;f:function'$/;"	v
+s:tlist_def_lua_settings	_vim/plugin/taglist.vim	/^let s:tlist_def_lua_settings = 'lua;f:function'$/;"	v
+s:tlist_def_make_settings	_vim/plugin/taglist.vim	/^let s:tlist_def_make_settings = 'make;m:macro'$/;"	v
+s:tlist_def_pascal_settings	_vim/plugin/taglist.vim	/^let s:tlist_def_pascal_settings = 'pascal;f:function;p:procedure'$/;"	v
+s:tlist_def_perl_settings	_vim/plugin/taglist.vim	/^let s:tlist_def_perl_settings = 'perl;c:constant;l:label;p:package;s:subroutine'$/;"	v
+s:tlist_def_php_settings	_vim/plugin/taglist.vim	/^let s:tlist_def_php_settings = 'php;c:class;d:constant;v:variable;f:function'$/;"	v
+s:tlist_def_python_settings	_vim/plugin/taglist.vim	/^let s:tlist_def_python_settings = 'python;c:class;m:member;f:function'$/;"	v
+s:tlist_def_rexx_settings	_vim/plugin/taglist.vim	/^let s:tlist_def_rexx_settings = 'rexx;s:subroutine'$/;"	v
+s:tlist_def_ruby_settings	_vim/plugin/taglist.vim	/^let s:tlist_def_ruby_settings = 'ruby;c:class;f:method;F:function;' .$/;"	v
+s:tlist_def_scheme_settings	_vim/plugin/taglist.vim	/^let s:tlist_def_scheme_settings = 'scheme;s:set;f:function'$/;"	v
+s:tlist_def_sh_settings	_vim/plugin/taglist.vim	/^let s:tlist_def_sh_settings = 'sh;f:function'$/;"	v
+s:tlist_def_slang_settings	_vim/plugin/taglist.vim	/^let s:tlist_def_slang_settings = 'slang;n:namespace;f:function'$/;"	v
+s:tlist_def_sml_settings	_vim/plugin/taglist.vim	/^let s:tlist_def_sml_settings = 'sml;e:exception;c:functor;s:signature;' .$/;"	v
+s:tlist_def_sql_settings	_vim/plugin/taglist.vim	/^let s:tlist_def_sql_settings = 'sql;c:cursor;F:field;P:package;r:record;' .$/;"	v
+s:tlist_def_tcl_settings	_vim/plugin/taglist.vim	/^let s:tlist_def_tcl_settings = 'tcl;c:class;f:method;m:method;p:procedure'$/;"	v
+s:tlist_def_vera_settings	_vim/plugin/taglist.vim	/^let s:tlist_def_vera_settings = 'vera;c:class;d:macro;e:enumerator;' .$/;"	v
+s:tlist_def_verilog_settings	_vim/plugin/taglist.vim	/^let s:tlist_def_verilog_settings = 'verilog;m:module;c:constant;P:parameter;' .$/;"	v
+s:tlist_def_vim_settings	_vim/plugin/taglist.vim	/^let s:tlist_def_vim_settings = 'vim;a:autocmds;v:variable;f:function'$/;"	v
+s:tlist_def_yacc_settings	_vim/plugin/taglist.vim	/^let s:tlist_def_yacc_settings = 'yacc;l:label'$/;"	v
+s:tlist_def_zsh_settings	_vim/plugin/taglist.vim	/^let s:tlist_def_zsh_settings = 'sh;f:function'$/;"	v
+s:tlist_file_count	_vim/plugin/taglist.vim	/^let s:tlist_file_count = 0$/;"	v
+s:tlist_file_lnum_idx_cache	_vim/plugin/taglist.vim	/^let s:tlist_file_lnum_idx_cache = -1$/;"	v
+s:tlist_file_name_idx_cache	_vim/plugin/taglist.vim	/^let s:tlist_file_name_idx_cache = -1$/;"	v
+s:tlist_file_names	_vim/plugin/taglist.vim	/^let s:tlist_file_names=''$/;"	v
+s:tlist_ftype_count	_vim/plugin/taglist.vim	/^let s:tlist_ftype_count = 0$/;"	v
+s:tlist_menu_empty	_vim/plugin/taglist.vim	/^let s:tlist_menu_empty = 1$/;"	v
+s:tlist_msg	_vim/plugin/taglist.vim	/^    let s:tlist_msg = ''$/;"	v
+s:tlist_removed_flist	_vim/plugin/taglist.vim	/^let s:tlist_removed_flist = ""$/;"	v
+s:tlist_sid	_vim/plugin/taglist.vim	/^    let s:tlist_sid = substitute(maparg('<SID>xx'), '<SNR>\\(\\d\\+_\\)xx$',$/;"	v
+s:tlist_win_maximized	_vim/plugin/taglist.vim	/^let s:tlist_win_maximized = 0$/;"	v
+s:tlist_winsize_chgd	_vim/plugin/taglist.vim	/^let s:tlist_winsize_chgd = -1$/;"	v
+s:vim_tags	_vimrc	/^let s:vim_tags = expand('~\/.cache\/tags')$/;"	v
+t	_vim/plugin/taglist.vim	/^    inoremap <buffer> <silent> t$/;"	m
+t	_vim/plugin/taglist.vim	/^    nnoremap <buffer> <silent> t$/;"	m
+tarball	_vim/c-support/codesnippets/Makefile	/^tarball:$/;"	t
+targets	_vim/c-support/rc/customization.ctags	/^--regex-make=\/^([^:# \\t]+)[ \\t]*:($|[^=]+)\/\\1\/t,targets\/$/;"	k
+tl	_vimrc	/^nmap tl :Tlist<cr>$/;"	m
+tt	_vimrc	/^nmap tt :%s\/\\t\/    \/g<CR>$/;"	m
+u	_vim/plugin/taglist.vim	/^    inoremap <buffer> <silent> u$/;"	m
+u	_vim/plugin/taglist.vim	/^    nnoremap <buffer> <silent> u :call <SID>Tlist_Window_Update_File()<CR>$/;"	m
+x	_vim/plugin/taglist.vim	/^    inoremap <buffer> <silent> x    <C-o>:call <SID>Tlist_Window_Zoom()<CR>$/;"	m
+x	_vim/plugin/taglist.vim	/^    nnoremap <buffer> <silent> x :call <SID>Tlist_Window_Zoom()<CR>$/;"	m
+zip	_vim/c-support/codesnippets/Makefile	/^zip:$/;"	t
+{<CR>	_vim/ftplugin/c.vim	/^inoremap  <buffer>  {<CR>  {<CR>}<Esc>O$/;"	m
+{<CR>	_vim/ftplugin/c.vim	/^vnoremap  <buffer>  {<CR> s{<CR>}<Esc>P=iB$/;"	m
