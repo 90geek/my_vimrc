@@ -328,9 +328,9 @@ filetype plugin indent on "×Ô¶¯Ê¶±ğÎÄ¼şÀàĞÍ£¬ÓÃÎÄ¼şÀàĞÍplugin½Å±¾£¬Ê¹ÓÃËõ½ø¶¨ÒåÎ
 """"""""""""""""""""""""""""""""""""""""""""""""""""""
 """""" Universal CTags
 """"""""""""""""""""""""""""""""""""""""""""""""""""""
-au BufWritePost *c,*cpp,*h !ctags -R --c++-kinds=+p --fields=+iaS --extra=+q .
+"au BufWritePost *c,*cpp,*h !ctags -R --c++-kinds=+p --fields=+iaS --extra=+q .
 let Tlist_Ctags_Cmd = '/usr/local/bin/ctags'
-let Tlist_Auto_Open = 1			"Ä¬ÈÏ²»´ò¿ªTaglist
+let Tlist_Auto_Open = 1			"Ä¬ÈÏ´ò¿ªTaglist
 let Tlist_Exit_OnlyWindow = 1   "Èç¹ûtaglist´°¿ÚÊÇ×îºóÒ»¸ö´°¿Ú£¬ÔòÍË³övim
 let Tlist_Use_Lift_Window = 1
 let Tlist_WinWidth = 25
@@ -343,15 +343,13 @@ let Tlist_Exist_OnlyWindow = 1  " Èç¹ûÖ»ÓĞÒ»¸öbuffer£¬kill´°¿ÚÒ²killµôbuffer
 "let Tlist_Show_One_File=1            "²»Í¬Ê±ÏÔÊ¾¶à¸öÎÄ¼şµÄtag£¬Ö»ÏÔÊ¾µ±Ç°ÎÄ¼şµÄ
  
 
-"ÉèÖÃtags 
+"ÉèÖÃ tags 
 "set tags=./tags,/usr/include/tags
 "./.tags; ´ú±íÔÚÎÄ¼şµÄËùÔÚÄ¿Â¼ÏÂ,¶ººÅ·Ö¸ôµÄºó°ë²¿·Ö .tags ÊÇÖ¸Í¬Ê±ÔÚ Vim µÄµ±Ç°Ä¿Â¼
 set tags=./.tags;,.tags
 set autochdir
 
-
-"Plug 'universal-ctags/ctags'
-"Plug 'ludovicchabant/vim-gutentags'   
+"×Ô¶¯Ë÷Òı
 " gutentags ËÑË÷¹¤³ÌÄ¿Â¼µÄ±êÖ¾£¬Åöµ½ÕâĞ©ÎÄ¼ş/Ä¿Â¼Ãû¾ÍÍ£Ö¹ÏòÉÏÒ»¼¶Ä¿Â¼µİ¹é
 let g:gutentags_project_root = ['.root', '.svn', '.git', '.hg', '.project']
 " ËùÉú³ÉµÄÊı¾İÎÄ¼şµÄÃû³Æ
@@ -368,9 +366,9 @@ if !isdirectory(s:vim_tags)
    silent! call mkdir(s:vim_tags, 'p')
 endif
 
-""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 "other
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 " minibufexpl²å¼şµÄÒ»°ãÉèÖÃ
 let g:miniBufExplMapWindowNavVim = 1
@@ -393,7 +391,36 @@ set termencoding=utf-8
 set encoding=utf8
 set fileencodings=utf8,ucs-bom,gbk,cp936,gb2312,gb18030
 
+"ALE ¶¯Ì¬¼ì²â"""""""""""""""""""""""""""""""""""""""
+let g:ale_sign_column_always = 1
+let g:ale_completion_delay = 500
+let g:ale_echo_delay = 20
+let g:ale_lint_delay = 500
+let g:ale_echo_msg_format = '[%linter%] %code: %%s'
+let g:ale_lint_on_text_changed = 'normal'
+let g:ale_lint_on_insert_leave = 1
+let g:airline#extensions#ale#enabled = 1
+"let g:ale_set_quickfix = 1
+"let g:ale_open_list = 1"´ò¿ªquitfix¶Ô»°¿ò
+let g:ale_c_gcc_options = '-Wall -O2 -std=c99'
+let g:ale_cpp_gcc_options = '-Wall -O2 -std=c++14'
+let g:ale_c_cppcheck_options = ''
+let g:ale_cpp_cppcheck_options = ''
+let g:ale_sign_error = ">>"
+let g:ale_sign_warning = "--"
+map <F7> ::ALEToggle<CR>
+"""""""""""""""""""""""""""""""""""""""""""""""""""""
 
+"ctrlpÉèÖÃ,¹ıÂËÉèÖÃ""""""""""""""""""""""""""""""""""
+set wildignore+=*/tmp/*,*.so,*.swp,*.zip,*.pyc,*.png,*.jpg,*.gif     " MacOSX/Linux
+"set wildignore+=*\\tmp\\*,*.swp,*.zip,*.exe,*.pyc,*.png,*.jpg,*.gif  " Windows
+let g:ctrlp_custom_ignore = '\v[\/]\.(git|hg|svn)$'
+let g:ctrlp_custom_ignore = '\v\.(exe|so|dll)$'
+let g:ctrlp_extensions = ['funky']
+let NERDTreeIgnore=['\.pyc']
+
+""airline ²å¼şÉèÖÃÖ÷Ìâ
+let g:airline_theme='light'
 """"""""""""""""""""""""""""""""""""""""""""""""""""""
 """"""vim-plug²å¼ş
 """"""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -403,10 +430,13 @@ set fileencodings=utf8,ucs-bom,gbk,cp936,gb2312,gb18030
 call plug#begin('~/.vim/plugged')
 
 Plug 'tpope/vim-sensible'
+
+"vim-airline ÊÇÒ»¿î×´Ì¬À¸ÃÀ»¯²å¼ş
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 
 "Plug 'universal-ctags/ctags'
+"×Ô¶¯Ë÷Òı£¬
 Plug 'ludovicchabant/vim-gutentags'
 Plug 'itchyny/lightline.vim'
 Plug 'fholgado/minibufexpl.vim'
@@ -415,19 +445,11 @@ Plug 'fholgado/minibufexpl.vim'
 Plug 'scrooloose/nerdtree'
 "ÑÕÉ«²å¼ş
 Plug 'flazz/vim-colorschemes'
-
-
-let g:airline_theme='light'
+"´úÂë¼ì²â²å¼ş
+Plug 'w0rp/ale'
 
 " Initialize plugin system
 call plug#end()
 
-""""""""""""""""""""""""""""""""""""""""""""""""""""
-"ctrlpÉèÖÃ,¹ıÂËÉèÖÃ
-""""""""""""""""""""""""""""""""""""""""""""""""""""
-set wildignore+=*/tmp/*,*.so,*.swp,*.zip,*.pyc,*.png,*.jpg,*.gif     " MacOSX/Linux
-set wildignore+=*\\tmp\\*,*.swp,*.zip,*.exe,*.pyc,*.png,*.jpg,*.gif  " Windows
-let g:ctrlp_custom_ignore = '\v[\/]\.(git|hg|svn)$'
-let g:ctrlp_custom_ignore = '\v\.(exe|so|dll)$'
-let g:ctrlp_extensions = ['funky']
-let NERDTreeIgnore=['\.pyc']
+""""vimrc end!
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
