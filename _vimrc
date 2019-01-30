@@ -136,6 +136,8 @@ autocmd BufNewFile * normal G "自动将光标定位到末尾
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 "键盘命令
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+"设置 Ctrl + s 为保存文件功能
+map <C-S> :w<CR>
 "显示tlist
 :nmap <silent> <F9> <ESC>:Tlist<RETURN> "
 " shift tab pages
@@ -343,8 +345,7 @@ let Tlist_Exist_OnlyWindow = 1  " 如果只有一个buffer，kill窗口也kill掉buffer
 "let Tlist_Show_One_File=1            "不同时显示多个文件的tag，只显示当前文件的
  
 
-"设置 tags 
-"set tags=./tags,/usr/include/tags
+"设置 tags set tags=./tags,/usr/include/tags
 "./.tags; 代表在文件的所在目录下,逗号分隔的后半部分 .tags 是指同时在 Vim 的当前目录
 set tags=./.tags;,.tags
 set autochdir
@@ -419,14 +420,15 @@ let g:ctrlp_custom_ignore = '\v\.(exe|so|dll)$'
 let g:ctrlp_extensions = ['funky']
 let NERDTreeIgnore=['\.pyc']
 
-""airline 插件设置主题
+""airline 插件设置主题""""""""""""""""""""""""""""""
 let g:airline_theme='light'
+
 """"""""""""""""""""""""""""""""""""""""""""""""""""""
 """"""vim-plug插件
 """"""""""""""""""""""""""""""""""""""""""""""""""""""
 " Specify a directory for plugins
 " - Avoid using standard Vim directory names like 'plugin'
-
+"开始，指定插件安装目录
 call plug#begin('~/.vim/plugged')
 
 Plug 'tpope/vim-sensible'
@@ -447,9 +449,14 @@ Plug 'scrooloose/nerdtree'
 Plug 'flazz/vim-colorschemes'
 "代码检测插件
 Plug 'w0rp/ale'
+"修改比较插件vim-signify
+Plug 'mhinz/vim-signify'
+
+"模糊搜索插件ctrlp
+Plug 'ctrlpvim/ctrlp.vim'
 
 " Initialize plugin system
-call plug#end()
+call plug#end() "结束
 
 """"vimrc end!
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
