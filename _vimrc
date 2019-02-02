@@ -136,8 +136,6 @@ autocmd BufNewFile * normal G "×Ô¶¯½«¹â±ê¶¨Î»µ½Ä©Î²
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 "¼üÅÌÃüÁî
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-"ÉèÖÃ Ctrl + s Îª±£´æÎÄ¼ş¹¦ÄÜ
-map <C-S> :w<CR>
 "ÏÔÊ¾tlist
 :nmap <silent> <F9> <ESC>:Tlist<RETURN> "
 " shift tab pages
@@ -330,7 +328,7 @@ filetype plugin indent on "×Ô¶¯Ê¶±ğÎÄ¼şÀàĞÍ£¬ÓÃÎÄ¼şÀàĞÍplugin½Å±¾£¬Ê¹ÓÃËõ½ø¶¨ÒåÎ
 """"""""""""""""""""""""""""""""""""""""""""""""""""""
 """""" Universal CTags
 """"""""""""""""""""""""""""""""""""""""""""""""""""""
-"au BufWritePost *c,*cpp,*h !ctags -R --c++-kinds=+p --fields=+iaS --extra=+q .
+au BufWritePost *c,*cpp,*h !ctags -R --c++-kinds=+p --fields=+iaS --extra=+q .
 let Tlist_Ctags_Cmd = '/usr/local/bin/ctags'
 let Tlist_Auto_Open = 1			"Ä¬ÈÏ´ò¿ªTaglist
 let Tlist_Exit_OnlyWindow = 1   "Èç¹ûtaglist´°¿ÚÊÇ×îºóÒ»¸ö´°¿Ú£¬ÔòÍË³övim
@@ -345,7 +343,8 @@ let Tlist_Exist_OnlyWindow = 1  " Èç¹ûÖ»ÓĞÒ»¸öbuffer£¬kill´°¿ÚÒ²killµôbuffer
 "let Tlist_Show_One_File=1            "²»Í¬Ê±ÏÔÊ¾¶à¸öÎÄ¼şµÄtag£¬Ö»ÏÔÊ¾µ±Ç°ÎÄ¼şµÄ
  
 
-"ÉèÖÃ tags set tags=./tags,/usr/include/tags
+"ÉèÖÃ tags 
+"set tags=./tags,/usr/include/tags
 "./.tags; ´ú±íÔÚÎÄ¼şµÄËùÔÚÄ¿Â¼ÏÂ,¶ººÅ·Ö¸ôµÄºó°ë²¿·Ö .tags ÊÇÖ¸Í¬Ê±ÔÚ Vim µÄµ±Ç°Ä¿Â¼
 set tags=./.tags;,.tags
 set autochdir
@@ -420,18 +419,18 @@ let g:ctrlp_custom_ignore = '\v\.(exe|so|dll)$'
 let g:ctrlp_extensions = ['funky']
 let NERDTreeIgnore=['\.pyc']
 
-""airline ²å¼şÉèÖÃÖ÷Ìâ""""""""""""""""""""""""""""""
+""airline ²å¼şÉèÖÃÖ÷Ìâ
 let g:airline_theme='light'
-
 """"""""""""""""""""""""""""""""""""""""""""""""""""""
 """"""vim-plug²å¼ş
 """"""""""""""""""""""""""""""""""""""""""""""""""""""
 " Specify a directory for plugins
 " - Avoid using standard Vim directory names like 'plugin'
-"¿ªÊ¼£¬Ö¸¶¨²å¼ş°²×°Ä¿Â¼
+
 call plug#begin('~/.vim/plugged')
 
-Plug 'tpope/vim-sensible'
+"´ó²¿·Ö±È½ÏÊÊÓÃµÄÉèÖÃ
+"Plug 'tpope/vim-sensible'
 
 "vim-airline ÊÇÒ»¿î×´Ì¬À¸ÃÀ»¯²å¼ş
 Plug 'vim-airline/vim-airline'
@@ -449,14 +448,9 @@ Plug 'scrooloose/nerdtree'
 Plug 'flazz/vim-colorschemes'
 "´úÂë¼ì²â²å¼ş
 Plug 'w0rp/ale'
-"ĞŞ¸Ä±È½Ï²å¼şvim-signify
-Plug 'mhinz/vim-signify'
-
-"Ä£ºıËÑË÷²å¼şctrlp
-Plug 'ctrlpvim/ctrlp.vim'
 
 " Initialize plugin system
-call plug#end() "½áÊø
+call plug#end()
 
 """"vimrc end!
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
