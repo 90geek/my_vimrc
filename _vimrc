@@ -335,7 +335,7 @@ let Tlist_Exit_OnlyWindow = 1   "如果taglist窗口是最后一个窗口，则退出vim
 let Tlist_Use_Lift_Window = 1
 let Tlist_WinWidth = 25
 let Tlist_Sort_Type = "name"    " 按照名称排序  
-"let Tlist_Use_Right_Window = 1  " 在右侧显示窗口  
+let Tlist_Use_Right_Window = 1  " 在右侧显示窗口  
 let Tlist_Compart_Format = 1    " 压缩方式  
 let Tlist_Exist_OnlyWindow = 1  " 如果只有一个buffer，kill窗口也kill掉buffer  
 ""let Tlist_File_Fold_Auto_Close = 0  " 不要关闭其他文件的tags  
@@ -346,7 +346,6 @@ let Tlist_Exist_OnlyWindow = 1  " 如果只有一个buffer，kill窗口也kill掉buffer
 "设置 tags 
 "set tags=./tags,/usr/include/tags
 "./.tags; 代表在文件的所在目录下,逗号分隔的后半部分 .tags 是指同时在 Vim 的当前目录
-set tags=./.tags;,.tags
 set autochdir
 
 "自动索引
